@@ -1,6 +1,6 @@
 :root {
-  --navigation-bar-link-color: #65816d;
-  --navigation-bar-link-hover-color: #22ad01;
-  --button-background-color: #22ad01;
-  --general-page-color: #003c2f;
+  --custom-color-yellow: #f8db62;
+  --custom-color-green: #00b289;
+  --custom-color-grey: #4c4d5f;
+  --custom-color-white: #fff;
 }

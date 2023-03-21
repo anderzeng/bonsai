@@ -1,9 +1,10 @@
 @import url(variables/colors.css);
 @import url(layout/page-layout.css);
 @import url(components/components.css);
-@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 body {
-  font-family: 'Averia Sans Libre', cursive;
-  color: var(--general-page-color);
+  font-family: "Lato", sans-serif;
+  background-color: var(--custom-color-white);
+  font-size: 16px;
 }
