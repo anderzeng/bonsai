@@ -1,0 +1,23 @@
+.banner__menu {
+	padding: 1rem;
+}
+
+.banner__menu-links {
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+}
+
+.banner__menu-link {
+	display: flex;
+	align-items: center;
+}
+
+.banner__menu-link-item-indicator {
+	border: solid black;
+	border-width: 0 1px 1px 0;
+	padding: 3px;
+	margin: 0 0 1px 16px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
