@@ -1,0 +1,34 @@
+.pricing__content {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 4rem;
+	margin-top: 3rem;
+}
+
+.pricing__content-box {
+	border: solid 1px;
+	border-radius: 5px;
+	width: 366px;
+}
+
+.pricing__content-inner-box {
+	padding: 2rem;
+}
+
+.pricing__data {
+	margin-top: 2rem;
+}
+
+.pricing__value {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.pricing__time {
+	text-transform: uppercase;
+}
+
+.pricing sup {
+	font-size: x-large;
+	margin-right: 0.5rem;
+}

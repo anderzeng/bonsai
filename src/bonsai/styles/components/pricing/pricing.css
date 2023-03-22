@@ -1,6 +1,8 @@
 @import url(pricing-header.css);
 @import url(pricing-header-toggler.css);
+@import url(pricing-content.css);
 
 .pricing {
-	margin-top: 80px;
+	margin: 2rem auto;
+	width: 800px;
 }
