@@ -34,6 +34,29 @@
 }
 
 .pricing__content-separator {
-	margin: 2rem 0;
+	margin: 1rem 0;
 	border: 1px solid var(--custom-color-green);
+}
+
+.pricing__content-items {
+	list-style: none;
+	display: contents;
+}
+
+.pricing__content-item {
+	margin-top: 1rem;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.pricing__content-item::before {
+	content: '';
+	display: inline-block;
+	margin-right: 1rem;
+	padding-left: 4px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid;
+	border-right: 1px solid;
+	transform: rotate(45deg);
+	color: var(--custom-color-green);
 }
