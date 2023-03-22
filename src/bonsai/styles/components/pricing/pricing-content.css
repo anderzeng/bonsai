@@ -15,20 +15,25 @@
 	padding: 2rem;
 }
 
-.pricing__data {
+.pricing__content-data {
 	margin-top: 2rem;
 }
 
-.pricing__value {
+.pricing__content-value {
 	font-size: 2em;
 	font-weight: bold;
 }
 
-.pricing__time {
+.pricing__content-value sup {
+	font-size: x-large;
+	margin-right: 0.5rem;
+}
+
+.pricing__content-time {
 	text-transform: uppercase;
 }
 
-.pricing sup {
-	font-size: x-large;
-	margin-right: 0.5rem;
+.pricing__content-separator {
+	margin: 2rem 0;
+	border: 1px solid var(--custom-color-green);
 }
