@@ -6,34 +6,34 @@
 }
 
 .pricing__content-box {
-	border: solid 1px;
+	border: solid 1px gray;
 	border-radius: 5px;
-	width: 366px;
+	width: 365px;
 	position: relative;
 }
 
 .pricing__content-box-tag {
 	position: absolute;
 	width: 130px;
-	left: 215px;
+	transform: rotate(45deg);
+}
+
+.pricing__content-box-promotion-tag {
+	left: 214px;
 	top: 41px;
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
 	border-bottom: 30px solid var(--custom-color-green);
-	transform: rotate(45deg);
 }
 
-.pricing__content-box-tag-description {
-	position: absolute;
+.pricing__content-box-promotion-tag-description {
 	left: 250px;
-	top: 40px;
-	width: 130px;
+	top: 41px;
 	text-transform: uppercase;
 	color: white;
 	letter-spacing: 1px;
 	font-weight: bold;
 	font-size: 13px;
-	transform: rotate(45deg);
 }
 
 .pricing__content-inner-box {
