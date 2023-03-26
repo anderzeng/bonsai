@@ -9,6 +9,31 @@
 	border: solid 1px;
 	border-radius: 5px;
 	width: 366px;
+	position: relative;
+}
+
+.pricing__content-box-tag {
+	position: absolute;
+	width: 130px;
+	left: 215px;
+	top: 41px;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 30px solid var(--custom-color-green);
+	transform: rotate(45deg);
+}
+
+.pricing__content-box-tag-description {
+	position: absolute;
+	left: 250px;
+	top: 40px;
+	width: 130px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 13px;
+	transform: rotate(45deg);
 }
 
 .pricing__content-inner-box {
