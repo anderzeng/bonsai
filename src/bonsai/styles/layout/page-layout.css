@@ -2,3 +2,10 @@
 	display: grid;
 	grid-template-rows: repeat(auto-fill, 150px);
 }
+
+.page-content {
+	width: 800px;
+	margin: 0 auto;
+	display: grid;
+	gap: 1rem;
+}
