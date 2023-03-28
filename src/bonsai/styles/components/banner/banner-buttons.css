@@ -12,6 +12,7 @@
 	border: solid 2px;
 	padding: 10px 25px;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .banner__buttton-login {
@@ -19,8 +20,8 @@
 }
 
 .banner__buttton-trial {
-	background-color: var(--custom-color-green);
 	color: white;
+	background-color: var(--custom-color-green);
 }
 
 .banner__button-label {
