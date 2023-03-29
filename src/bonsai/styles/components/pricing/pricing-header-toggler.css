@@ -1,35 +1,28 @@
-.pricing__header-toogler {
+.pricing__header-toogle {
 	display: flex;
 	gap: 1rem;
 	text-transform: uppercase;
 	align-items: center;
 }
 
-.pricing__header-toggler-switch {
+.pricing__header-toggle-switch {
 	width: 45px;
 	height: 25px;
 	background-color: var(--custom-color-green);
 	border-radius: 12px;
+	cursor: pointer;
 }
 
-.pricing__header-toggler-switch-indicator {
+.pricing__header-toggle-switch-indicator {
 	background-color: var(--custom-color-white);
 	border-radius: 100%;
-	width: 23px;
-	height: 23px;
-	margin-top: 1px;
-	margin-left: 1px;
+	width: 21px;
+	height: 21px;
+	margin-top: 2px;
+	margin-left: 2px;
+	transition: transform 0.2s 0.1s ease-out;
 }
 
-.pricing__header-toggler-switch-indicator--hover:hover {
-	animation: my-animation 600ms ease-in-out infinite;
-}
-
-@keyframes my-animation {
-	from {
-		transform: translateX(0px);
-	}
-	to {
-		transform: translateX(20px);
-	}
+.pricing__header-toogle-switch-activation {
+	transform: translateX(20px);
 }
