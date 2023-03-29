@@ -3,7 +3,7 @@
 	height: 200px;
 	justify-content: space-evenly;
 	align-items: center;
-	background-color: rgb(175, 225, 175, 0.2);
+	background-color: var(--background-green);
 	margin-top: 20px;
 }
 
