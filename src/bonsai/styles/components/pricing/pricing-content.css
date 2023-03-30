@@ -6,8 +6,8 @@
 }
 
 .pricing__content-box {
-	border: solid 1px gray;
-	border-radius: 5px;
+	border: solid 2px rgb(192, 192, 192, 0.3);
+	border-radius: 4px;
 	width: 365px;
 	position: relative;
 }
