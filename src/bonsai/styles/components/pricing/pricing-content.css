@@ -89,3 +89,13 @@
 	transform: rotate(45deg);
 	margin-right: 10px;
 }
+
+.pricing__content-item-new-tag {
+	display: inline-block;
+	background-color: var(--primary-color-yellow);
+	font-weight: 300;
+	font-size: small;
+	color: var(--primary-color-white);
+	padding: 3px;
+	margin-left: 3px;
+}
