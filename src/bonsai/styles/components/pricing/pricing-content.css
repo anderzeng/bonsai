@@ -12,6 +12,10 @@
 	position: relative;
 }
 
+.pricing__content-box-activate {
+	border: solid 2px var(--custom-color-green);
+}
+
 .pricing__content-box-tag {
 	position: absolute;
 	width: 130px;
