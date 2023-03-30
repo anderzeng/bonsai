@@ -8,13 +8,13 @@
 .pricing__header-toggle-switch {
 	width: 45px;
 	height: 25px;
-	background-color: var(--custom-color-green);
+	background-color: var(--primary-color-green);
 	border-radius: 12px;
 	cursor: pointer;
 }
 
 .pricing__header-toggle-switch-indicator {
-	background-color: var(--custom-color-white);
+	background-color: var(--primary-color-white);
 	border-radius: 100%;
 	width: 21px;
 	height: 21px;

@@ -1,7 +1,8 @@
 :root {
 	--custom-color-yellow: #f8db62;
-	--custom-color-green: #00b289;
-	--custom-color-grey: #4c4d5f;
-	--custom-color-white: #fff;
-	--background-green: rgb(175, 225, 175, 0.2);
+	--primary-color-green: #00b289;
+	--primary-color-gray: #4c4d5f;
+	--primary-color-white: #fff;
+	--background-color-green: rgb(175, 225, 175, 0.2);
+	--separator-color-gray: #f3f1ee;
 }

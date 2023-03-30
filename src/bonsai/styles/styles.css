@@ -5,6 +5,6 @@
 
 body {
 	font-family: 'Lato', sans-serif;
-	background-color: var(--custom-color-white);
+	background-color: var(--primary-color-white);
 	font-size: 16px;
 }

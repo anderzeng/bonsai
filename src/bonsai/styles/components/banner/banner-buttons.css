@@ -16,12 +16,12 @@
 }
 
 .banner__buttton-login {
-	color: var(--custom-color-green);
+	color: var(--primary-color-green);
 }
 
 .banner__buttton-trial {
 	color: white;
-	background-color: var(--custom-color-green);
+	background-color: var(--primary-color-green);
 }
 
 .banner__button-label {

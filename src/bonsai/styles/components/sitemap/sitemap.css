@@ -25,7 +25,7 @@
 }
 
 .sitemap__list-subitem p {
-	color: var(--custom-color-green);
+	color: var(--primary-color-green);
 }
 
 .sitemap__list-item-toggle::after {
