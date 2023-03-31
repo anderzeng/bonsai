@@ -21,11 +21,31 @@
 	align-items: center;
 }
 
+.faq__list-item-toggle-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.faq__list-item-toggle-animation {
+	transform: rotate(180deg);
+}
+
 .faq__list-item-toggle {
+	display: inline-block;
 	width: 5px;
 	height: 5px;
 	padding: 1px;
 	border-right: 1px solid gray;
 	border-bottom: 1px solid gray;
 	transform: rotate(45deg);
+}
+
+.faq__list-item-description {
+	height: 0;
+	overflow: hidden;
 }

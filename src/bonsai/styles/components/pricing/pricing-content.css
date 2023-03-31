@@ -13,7 +13,7 @@
 }
 
 .pricing__content-box-activate {
-	border: solid 2px var(--primary-color-green);
+	border-color: var(--primary-color-green);
 }
 
 .pricing__content-box-tag {
