@@ -3,7 +3,7 @@ const pricingBoxMonthly = document.getElementById('pricing-box-monthly');
 const pricingBoxYearly = document.getElementById('pricing-box-yearly');
 
 function pricingSelectionToggle() {
-	toggleElement.firstElementChild.classList.toggle(
+	this.firstElementChild.classList.toggle(
 		'pricing__header-toogle-switch-activation'
 	);
 
