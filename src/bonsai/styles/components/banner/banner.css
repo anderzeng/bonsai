@@ -2,7 +2,6 @@
 @import url(banner-buttons.css);
 
 .banner {
-	width: 100%;
 	max-width: 1268px;
 	margin: 0 auto;
 }
