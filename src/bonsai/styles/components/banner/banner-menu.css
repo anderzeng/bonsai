@@ -5,15 +5,17 @@
 .banner__menu-items {
 	list-style: none;
 	display: flex;
+	align-items: center;
 	gap: 2rem;
 }
 
 .banner__menu-item {
 	cursor: pointer;
+	display: flex;
+	align-items: center;
 }
 
 .banner__menu-item-toggle {
-	display: inline-block;
 	border: solid 1px black;
 	border-width: 0 1px 1px 0;
 	padding: 3px;
