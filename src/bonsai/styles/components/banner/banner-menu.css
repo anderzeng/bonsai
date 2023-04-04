@@ -5,28 +5,26 @@
 .banner__menu-items {
 	list-style: none;
 	display: flex;
-	align-items: center;
 	gap: 2rem;
 }
 
 .banner__menu-item {
 	cursor: pointer;
-	display: flex;
-	align-items: center;
 }
 
-.banner__menu-item-toggle {
+.banner__menu-item-toggle::after {
+	content: '';
+	display: inline-block;
 	border: solid 1px black;
 	border-width: 0 1px 1px 0;
 	padding: 3px;
-	margin-left: 16px;
 	margin-bottom: 3px;
+	margin-left: 8px;
 	transform: rotate(45deg);
 }
 
 .banner__menu-item-dropdown {
 	position: relative;
-	margin-top: 16px;
 }
 
 .banner__menu-item-dropdown-content {
@@ -36,6 +34,7 @@
 	min-width: 120px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
+	margin-top: 12px;
 }
 
 .banner__menu-item:hover .banner__menu-item-dropdown-content {

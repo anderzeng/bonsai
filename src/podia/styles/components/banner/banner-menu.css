@@ -1,7 +1,6 @@
 .banner__menu-items {
 	list-style: none;
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap;
 	gap: 2rem;
 }
