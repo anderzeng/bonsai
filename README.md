@@ -1,9 +1,7 @@
-# Practice Web Layouts
+# Practice Web Layout - Bonsai
 
-A compilation of vanilla HTML, CSS and JavaScript projects oriented to web layout.
+Project oriented to practice web layout with HTML, CSS and JavaScript.
 
-## Projects
+## Description
 
-- Bonsai: <https://www.frontendpractice.com/projects/bonsai> (Level 1)
-- Podia: <https://www.frontendpractice.com/projects/podia> (Level 2)
-- Nintendo: <https://www.nintendo.com/store/products/stardew-valley-switch/> (Level 3)
+Bonsai: <https://www.frontendpractice.com/projects/bonsai>
