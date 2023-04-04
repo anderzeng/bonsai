@@ -1,3 +1,8 @@
+.banner__menu {
+	display: flex;
+	align-items: center;
+}
+
 .banner__menu-items {
 	list-style: none;
 	display: flex;

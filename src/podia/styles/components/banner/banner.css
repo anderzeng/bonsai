@@ -1,4 +1,5 @@
 @import url(banner-menu.css);
+@import url(banner-buttons.css);
 
 .banner {
 	max-width: 1268px;
@@ -8,6 +9,8 @@
 .banner__container {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
 }
 
 .banner_menu-item-toggle::after {

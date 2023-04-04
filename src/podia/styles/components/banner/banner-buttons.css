@@ -1,0 +1,15 @@
+.banner__buttons {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 35px;
+	cursor: pointer;
+}
+
+.banner__buttons-free-trial {
+	background-color: var(--custom-orange-color-rgb);
+	border-radius: 25px;
+	padding: 10px;
+	color: var(--custom-black-color);
+	font-weight: bold;
+}
