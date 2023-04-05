@@ -1,6 +1,13 @@
+.page-layout {
+	display: grid;
+	width: 1268px;
+	margin: 0 auto;
+	gap: 20px;
+}
+
 .page-content {
 	display: grid;
+	gap: 15px;
 	width: 800px;
 	margin: 0 auto;
-	gap: 1rem;
 }
