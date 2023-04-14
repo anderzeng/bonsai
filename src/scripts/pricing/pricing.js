@@ -1,8 +1,7 @@
-const toggleElement = document.getElementById('pricing-header-toggle-switch');
-const pricingBoxMonthly = document.getElementById('pricing-box-monthly');
-const pricingBoxYearly = document.getElementById('pricing-box-yearly');
+export default function pricingSelectionToggle() {
+	const pricingBoxMonthly = document.getElementById('pricing-box-monthly');
+	const pricingBoxYearly = document.getElementById('pricing-box-yearly');
 
-function pricingSelectionToggle() {
 	this.firstElementChild.classList.toggle(
 		'pricing__header-toogle-switch-activation'
 	);
@@ -12,5 +11,3 @@ function pricingSelectionToggle() {
 		pricingBoxMonthly.classList.toggle('pricing__content-box-activate');
 	}, 150);
 }
-
-toggleElement.addEventListener('click', pricingSelectionToggle);
