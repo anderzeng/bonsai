@@ -1,30 +1,30 @@
-.banner__buttons {
+.page-header__buttons {
 	padding: 1rem;
 }
 
-.banner__buttons-list {
+.page-header__buttons-list {
 	list-style: none;
 	display: flex;
 	gap: 1rem;
 }
 
-.banner__button {
+.page-header__button {
 	border: solid 2px;
 	padding: 10px 25px;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
-.banner__button-login {
+.page-header__button-login {
 	color: var(--primary-color-green);
 }
 
-.banner__button-trial {
+.page-header__button-trial {
 	color: white;
 	background-color: var(--primary-color-green);
 }
 
-.banner__button-label {
+.page-header__button-label {
 	text-transform: uppercase;
 	font-size: smaller;
 	font-weight: bold;

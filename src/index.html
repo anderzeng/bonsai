@@ -11,60 +11,61 @@
 	</head>
 
 	<body>
-		<main class="page-layout">
-			<section id="banner">
-				<div class="banner__container">
-					<div class="banner_logo">
-						<a href="/src/bonsai/">
-							<img src="assets/images/banner/logo.svg" alt="logo" />
-						</a>
-					</div>
-					<div class="banner__items">
-						<nav class="banner__menu">
-							<ul class="banner__menu-items">
-								<li class="banner__menu-item">
-									<span class="banner__menu-item-toggle">Product</span>
-									<div class="banner__menu-item-dropdown-container">
-										<div class="banner__menu-item-dropdown-content">
-											<a class="banner__dropdown-item">Product 1</a>
-											<a class="banner__dropdown-item">Product 2</a>
-											<a class="banner__dropdown-item">Product 3</a>
-										</div>
-									</div>
-								</li>
-								<li class="banner__menu-item">
-									<span class="banner__menu-item-toggle">Templates</span>
-									<div class="banner__menu-item-dropdown">
-										<div class="banner__menu-item-dropdown-content">
-											<a class="banner__dropdown-item">Template 1</a>
-											<a class="banner__dropdown-item">Template 2</a>
-											<a class="banner__dropdown-item">Template 3</a>
-										</div>
-									</div>
-								</li>
-								<li class="banner__menu-item">
-									<span>Pricing</span>
-								</li>
-								<li class="banner__menu-item">
-									<a>Reviews</a>
-								</li>
-							</ul>
-						</nav>
-						<nav class="banner__buttons">
-							<ul class="banner__buttons-list">
-								<li class="banner__button banner__button-login">
-									<a class="banner__button-label">Log In</a>
-								</li>
-								<li class="banner__button banner__button-trial">
-									<a class="banner__button-label">Start free</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
+		<header class="page-header">
+			<div class="page-header__container">
+				<div class="page-header__logo">
+					<a href="/src/bonsai/">
+						<img src="assets/images/logo.svg" alt="logo" />
+					</a>
 				</div>
-			</section>
+				<div class="page-header__items">
+					<nav class="page-header__menu">
+						<ul class="page-header__menu-items">
+							<li class="page-header__menu-item">
+								<span class="page-header__menu-item-toggle">Product</span>
+								<div class="page-header__menu-item-dropdown-container">
+									<div class="page-header__menu-item-dropdown-content">
+										<a class="page-header__dropdown-item">Product 1</a>
+										<a class="page-header__dropdown-item">Product 2</a>
+										<a class="page-header__dropdown-item">Product 3</a>
+									</div>
+								</div>
+							</li>
+							<li class="page-header__menu-item">
+								<span class="page-header__menu-item-toggle">Templates</span>
+								<div class="page-header__menu-item-dropdown">
+									<div class="page-header__menu-item-dropdown-content">
+										<a class="page-header__dropdown-item">Template 1</a>
+										<a class="page-header__dropdown-item">Template 2</a>
+										<a class="page-header__dropdown-item">Template 3</a>
+									</div>
+								</div>
+							</li>
+							<li class="page-header__menu-item">
+								<span>Pricing</span>
+							</li>
+							<li class="page-header__menu-item">
+								<a>Reviews</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="page-header__buttons">
+						<ul class="page-header__buttons-list">
+							<li class="page-header__button page-header__button-login">
+								<a class="page-header__button-label">Log In</a>
+							</li>
+							<li class="page-header__button page-header__button-trial">
+								<a class="page-header__button-label">Start free</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="page-layout">
 			<section class="page-content">
-				<article id="pricing" class="pricing">
+				<article class="pricing">
 					<header class="pricing__header">
 						<div>
 							<h2>Plans &amp; Pricing</h2>
