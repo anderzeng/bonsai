@@ -4,14 +4,15 @@
 		"browser": true,
 		"es2021": true
 	},
-	"extends": ["airbnb", "eslint:recommended", "prettier"],
+	"extends": ["eslint:recommended", "plugin:import/recommended", "prettier"],
 	"overrides": [],
 	"parserOptions": {
 		"ecmaVersion": "latest",
-		"sourceType": "script"
+		"sourceType": "module"
 	},
 	"rules": {
 		"no-console": "off",
-		"allowForLoopAfterthoughts": "off"
+		"allowForLoopAfterthoughts": "off",
+		"import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
 	}
 }
