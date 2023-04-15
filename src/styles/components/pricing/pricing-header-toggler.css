@@ -1,4 +1,4 @@
-.pricing__header-toogle {
+.pricing__header-toggle {
 	display: flex;
 	gap: 1rem;
 	text-transform: uppercase;
@@ -23,6 +23,6 @@
 	transition: transform 0.2s 0.1s ease-out;
 }
 
-.pricing__header-toogle-switch-activation {
+.pricing__header-toggle-switch-activation {
 	transform: translateX(20px);
 }

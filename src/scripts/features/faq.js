@@ -1,4 +1,4 @@
-export default function faqItemTooggleElements() {
+export default function faqItemToggleElements() {
 	const faqItemToggleElements = document.querySelectorAll('.faq__list-item');
 	const faqItemDescriptionElements = document.querySelectorAll(
 		'.faq__list-item-description'
