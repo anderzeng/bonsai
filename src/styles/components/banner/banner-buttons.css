@@ -8,18 +8,18 @@
 	gap: 1rem;
 }
 
-.banner__buttton {
+.banner__button {
 	border: solid 2px;
 	padding: 10px 25px;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
-.banner__buttton-login {
+.banner__button-login {
 	color: var(--primary-color-green);
 }
 
-.banner__buttton-trial {
+.banner__button-trial {
 	color: white;
 	background-color: var(--primary-color-green);
 }
