@@ -1,23 +1,13 @@
-.page-header__buttons-list {
+.page-header__buttons-container {
 	list-style: none;
 	display: flex;
 	gap: 1rem;
 }
 
 .page-header__button {
-	border: solid 2px;
-	padding: 10px 25px;
+	padding: 0.5em 1em;
 	border-radius: 5px;
 	cursor: pointer;
-}
-
-.page-header__button-login {
-	color: var(--primary-color-green);
-}
-
-.page-header__button-trial {
-	color: white;
-	background-color: var(--primary-color-green);
 }
 
 .page-header__button-label {
@@ -25,4 +15,14 @@
 	font-size: smaller;
 	font-weight: bold;
 	letter-spacing: 1px;
+}
+
+.page-header__button-login {
+	border: solid 2px;
+	color: var(--primary-color-green);
+}
+
+.page-header__button-trial {
+	color: white;
+	background-color: var(--primary-color-green);
 }
