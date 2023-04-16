@@ -13,407 +13,396 @@
 	<body>
 		<header class="page-header">
 			<div class="page-header__container">
-				<div class="page-header__logo">
-					<a href="/src/bonsai/">
-						<img src="assets/images/logo.svg" alt="logo" />
-					</a>
-				</div>
-				<div class="page-header__items">
-					<nav class="page-header__menu">
-						<ul class="page-header__menu-items">
-							<li class="page-header__menu-item">
-								<span class="page-header__menu-item-toggle">Product</span>
-								<div class="page-header__menu-item-dropdown-container">
-									<div class="page-header__menu-item-dropdown-content">
-										<a class="page-header__dropdown-item">Product 1</a>
-										<a class="page-header__dropdown-item">Product 2</a>
-										<a class="page-header__dropdown-item">Product 3</a>
-									</div>
+				<a href="/src/bonsai/">
+					<img src="assets/images/logo.svg" alt="bonsai-logo" />
+				</a>
+				<nav>
+					<ul class="page-header__navigation-menu">
+						<li class="page-header__navigation-menu-item">
+							<span class="page-header__menu-item-toggle">Product</span>
+							<div class="page-header__menu-item-dropdown-container">
+								<div class="page-header__menu-item-dropdown-content">
+									<a class="page-header__menu-item-dropdown">Product 1</a>
+									<a class="page-header__menu-item-dropdown">Product 2</a>
+									<a class="page-header__menu-item-dropdown">Product 3</a>
 								</div>
-							</li>
-							<li class="page-header__menu-item">
-								<span class="page-header__menu-item-toggle">Templates</span>
-								<div class="page-header__menu-item-dropdown">
-									<div class="page-header__menu-item-dropdown-content">
-										<a class="page-header__dropdown-item">Template 1</a>
-										<a class="page-header__dropdown-item">Template 2</a>
-										<a class="page-header__dropdown-item">Template 3</a>
-									</div>
+							</div>
+						</li>
+						<li class="page-header__navigation-menu-item">
+							<span class="page-header__menu-item-toggle">Templates</span>
+							<div class="page-header__menu-item-dropdown-container">
+								<div class="page-header__menu-item-dropdown-content">
+									<a class="page-header__menu-item-dropdown">Template 1</a>
+									<a class="page-header__menu-item-dropdown">Template 2</a>
+									<a class="page-header__menu-item-dropdown">Template 3</a>
 								</div>
-							</li>
-							<li class="page-header__menu-item">
-								<span>Pricing</span>
-							</li>
-							<li class="page-header__menu-item">
-								<a>Reviews</a>
-							</li>
-						</ul>
-					</nav>
-					<nav class="page-header__buttons">
-						<ul class="page-header__buttons-list">
-							<li class="page-header__button page-header__button-login">
-								<a class="page-header__button-label">Log In</a>
-							</li>
-							<li class="page-header__button page-header__button-trial">
-								<a class="page-header__button-label">Start free</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
+							</div>
+						</li>
+						<li class="page-header__navigation-menu-item">
+							<span>Pricing</span>
+						</li>
+						<li class="page-header__navigation-menu-item">
+							<a>Reviews</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="page-header__buttons">
+					<ul class="page-header__buttons-list">
+						<li class="page-header__button page-header__button-login">
+							<a class="page-header__button-label">Log In</a>
+						</li>
+						<li class="page-header__button page-header__button-trial">
+							<a class="page-header__button-label">Start free</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</header>
-
-		<main class="page-layout">
-			<section class="page-content">
-				<article class="pricing">
-					<header class="pricing__header">
-						<div>
-							<h2>Plans &amp; Pricing</h2>
+		<main class="page-content">
+			<section class="pricing">
+				<header class="pricing__header">
+					<div>
+						<h2>Plans &amp; Pricing</h2>
+					</div>
+					<div class="pricing__header-toggle">
+						<div class="pricing__header-toggle-monthly">
+							<h4>Monthly</h4>
 						</div>
-						<div class="pricing__header-toggle">
-							<div class="pricing__header-toggle-monthly">
-								<h4>Monthly</h4>
-							</div>
-							<div
-								data-id="pricing-selection-toggle"
-								class="pricing__header-toggle-switch"
-							>
-								<div class="pricing__header-toggle-switch-indicator"></div>
-							</div>
-							<div class="pricing__header-toggler-yearly">
-								<h4>Yearly</h4>
-							</div>
-						</div>
-					</header>
-					<div class="pricing__content">
 						<div
-							data-id="pricing-box-monthly"
-							class="pricing__content-box pricing__content-box-activate"
+							data-id="pricing-selection-toggle"
+							class="pricing__header-toggle-switch"
 						>
-							<div class="pricing__content-inner-box">
-								<h3>Workflow</h3>
-								<div class="pricing__content-data">
-									<span class="pricing__content-value"><sup>&#36;</sup>19</span>
-									<span class="pricing__content-time">/month</span>
-								</div>
-								<div class="pricing__content-separator"></div>
-								<div>
-									<ul class="pricing__content-items">
-										<li class="pricing__content-item">
-											<span>Unlimited Clients &amp; Projects</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>Proposals</span>
-										</li>
-										<li class="pricing__content-item">Contracts</li>
-										<li class="pricing__content-item">
-											<span>Invoicing &amp; Payments</span>
-										</li>
-										<li class="pricing__content-item"><span>CRM</span></li>
-										<li class="pricing__content-item">
-											<span>Project Management</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>Task &amp; Time Tracking</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>iOS, Android, Chrome, &amp; Mac Apps</span>
-										</li>
-									</ul>
-								</div>
+							<div class="pricing__header-toggle-switch-indicator"></div>
+						</div>
+						<div class="pricing__header-toggler-yearly">
+							<h4>Yearly</h4>
+						</div>
+					</div>
+				</header>
+				<div class="pricing__content">
+					<div
+						data-id="pricing-box-monthly"
+						class="pricing__content-box pricing__content-box-activate"
+					>
+						<div class="pricing__content-inner-box">
+							<h3>Workflow</h3>
+							<div class="pricing__content-data">
+								<span class="pricing__content-value"><sup>&#36;</sup>19</span>
+								<span class="pricing__content-time">/month</span>
+							</div>
+							<div class="pricing__content-separator"></div>
+							<div>
+								<ul class="pricing__content-items">
+									<li class="pricing__content-item">
+										<span>Unlimited Clients &amp; Projects</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>Proposals</span>
+									</li>
+									<li class="pricing__content-item">Contracts</li>
+									<li class="pricing__content-item">
+										<span>Invoicing &amp; Payments</span>
+									</li>
+									<li class="pricing__content-item"><span>CRM</span></li>
+									<li class="pricing__content-item">
+										<span>Project Management</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>Task &amp; Time Tracking</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>iOS, Android, Chrome, &amp; Mac Apps</span>
+									</li>
+								</ul>
 							</div>
 						</div>
-						<div data-id="pricing-box-yearly" class="pricing__content-box">
-							<div
-								class="pricing__content-box-tag pricing__content-box-promotion-tag"
-							></div>
-							<div
-								class="pricing__content-box-tag pricing__content-box-promotion-tag-description"
-							>
-								<p>Most Popular</p>
+					</div>
+					<div data-id="pricing-box-yearly" class="pricing__content-box">
+						<div
+							class="pricing__content-box-tag pricing__content-box-promotion-tag"
+						></div>
+						<div
+							class="pricing__content-box-tag pricing__content-box-promotion-tag-description"
+						>
+							<p>Most Popular</p>
+						</div>
+						<div class="pricing__content-inner-box">
+							<h3>Workflow Plus</h3>
+							<div class="pricing__content-data">
+								<span class="pricing__content-value"><sup>&#36;</sup>29</span>
+								<span class="pricing__content-time">/month</span>
 							</div>
-							<div class="pricing__content-inner-box">
-								<h3>Workflow Plus</h3>
-								<div class="pricing__content-data">
-									<span class="pricing__content-value"><sup>&#36;</sup>29</span>
-									<span class="pricing__content-time">/month</span>
-								</div>
-								<div class="pricing__content-separator"></div>
-								<div>
-									<ul class="pricing__content-items">
-										<li class="pricing__content-item">
-											<span>Everything in Workflow, plus ...</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>White-labelled client experience</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>Client forms and questionnaires</span>
-											<div class="pricing__content-item-new-tag">
-												<span>New</span>
-											</div>
-										</li>
-										<li class="pricing__content-item">
-											<span>Workflow automation</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>Subcontracting (client-mode)</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>Calendly integration</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>Client portal</span>
-										</li>
-										<li class="pricing__content-item">
-											<span>Priority support</span>
-										</li>
-									</ul>
-								</div>
+							<div class="pricing__content-separator"></div>
+							<div>
+								<ul class="pricing__content-items">
+									<li class="pricing__content-item">
+										<span>Everything in Workflow, plus ...</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>White-labelled client experience</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>Client forms and questionnaires</span>
+										<div class="pricing__content-item-new-tag">
+											<span>New</span>
+										</div>
+									</li>
+									<li class="pricing__content-item">
+										<span>Workflow automation</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>Subcontracting (client-mode)</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>Calendly integration</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>Client portal</span>
+									</li>
+									<li class="pricing__content-item">
+										<span>Priority support</span>
+									</li>
+								</ul>
 							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="addons">
+				<article class="addons__content">
+					<header class="addons__header">
+						<p>Super charge your work with add-ons</p>
+					</header>
+					<div class="addons_item">
+						<div class="addons__item-description">
+							<span class="addons__item-description-title">Collaborators </span>
+							<span class="addons__item-description-content">
+								Invite other users to specific projects for limited access and
+								functionality.
+							</span>
+						</div>
+						<div>
+							<h2>Free</h2>
+						</div>
+					</div>
+					<div class="addons__item-separator"></div>
+					<div class="addons_item">
+						<div class="addons__item-description">
+							<span class="addons__item-description-title"> Partners </span>
+							<span class="addons__item-description-content">
+								Invite other users to specific projects for limited access and
+								functionality.
+							</span>
+						</div>
+						<div class="addons__item-subscription-fee">
+							<span class="addons__item-price">$9</span><br />
+							<span class="addons__item-time">/month</span>
+						</div>
+					</div>
+					<div class="addons__item-separator"></div>
+					<div class="addons_item">
+						<div class="addons__item-description">
+							<span class="addons__item-description-title"> Bonsai Tax </span>
+							<span class="addons__item-description-content">
+								Track expenses, identify write-offs, and estimate quarterly
+								taxes easily.
+							</span>
+						</div>
+						<div class="addons__item-subscription-fee">
+							<span class="addons__item-price">$10</span><br />
+							<span class="addons__item-time">/month</span>
 						</div>
 					</div>
 				</article>
-				<section class="addons">
-					<article class="addons__content">
-						<header class="addons__header">
-							<p>Super charge your work with add-ons</p>
-						</header>
-						<div class="addons_item">
-							<div class="addons__item-description">
-								<span class="addons__item-description-title"
-									>Collaborators
-								</span>
-								<span class="addons__item-description-content">
-									Invite other users to specific projects for limited access and
-									functionality.
-								</span>
-							</div>
-							<div>
-								<h2>Free</h2>
-							</div>
-						</div>
-						<div class="addons__item-separator"></div>
-						<div class="addons_item">
-							<div class="addons__item-description">
-								<span class="addons__item-description-title"> Partners </span>
-								<span class="addons__item-description-content">
-									Invite other users to specific projects for limited access and
-									functionality.
-								</span>
-							</div>
-							<div class="addons__item-subscription-fee">
-								<span class="addons__item-price">$9</span><br />
-								<span class="addons__item-time">/month</span>
-							</div>
-						</div>
-						<div class="addons__item-separator"></div>
-						<div class="addons_item">
-							<div class="addons__item-description">
-								<span class="addons__item-description-title"> Bonsai Tax </span>
-								<span class="addons__item-description-content">
-									Track expenses, identify write-offs, and estimate quarterly
-									taxes easily.
-								</span>
-							</div>
-							<div class="addons__item-subscription-fee">
-								<span class="addons__item-price">$10</span><br />
-								<span class="addons__item-time">/month</span>
-							</div>
-						</div>
-					</article>
-				</section>
+			</section>
 
-				<section class="trial">
-					<div class="trial__description">
-						<p>
-							It's
-							<span class="trial__description-word">your</span>
-							business.<br />
-							We're here to help it grow.
-						</p>
+			<section class="trial">
+				<div class="trial__description">
+					<p>
+						It's
+						<span class="trial__description-word">your</span>
+						business.<br />
+						We're here to help it grow.
+					</p>
+				</div>
+				<div class="trial__button">
+					<a>Start free</a>
+				</div>
+			</section>
+
+			<section class="faq">
+				<div class="faq__title">
+					<p>Frequently Asked Questions</p>
+				</div>
+				<div class="faq__content">
+					<ul class="faq__content-list">
+						<li class="faq__list-item-separator">
+							<div class="faq__list-item">
+								<p>How does the 14 day free trial work?</p>
+								<span class="faq__list-item-toggle"></span>
+							</div>
+							<div
+								class="faq__list-item-description faq__list-item-description-toggle"
+							>
+								<p>It works!</p>
+							</div>
+						</li>
+						<li class="faq__list-item-separator">
+							<div class="faq__list-item">
+								<p>Can I change plans anytime?</p>
+								<span class="faq__list-item-toggle"></span>
+							</div>
+							<div
+								class="faq__list-item-description faq__list-item-description-toggle"
+							>
+								<p>Yes, you can do it as long as you are a client</p>
+							</div>
+						</li>
+						<li class="faq__list-item-separator">
+							<div class="faq__list-item">
+								<p>How do I pause my Bonsai subscription?</p>
+								<span class="faq__list-item-toggle"></span>
+							</div>
+							<div
+								class="faq__list-item-description faq__list-item-description-toggle"
+							>
+								<p>You just can't, this is a trap!</p>
+							</div>
+						</li>
+						<li class="faq__list-item-separator">
+							<div class="faq__list-item">
+								<p>What is the refund policy?</p>
+								<span class="faq__list-item-toggle"></span>
+							</div>
+							<div
+								class="faq__list-item-description faq__list-item-description-toggle"
+							>
+								<p>We don't have one ... basically, if you pay you are done</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="sitemap">
+				<article>
+					<p class="sitemap__title">Product</p>
+					<ul class="sitemap__list">
+						<li class="sitemap__list-item"><span>Proposals</span></li>
+						<li class="sitemap__list-item"><span>Contracts</span></li>
+						<li class="sitemap__list-item"><span>Invoicing</span></li>
+						<li class="sitemap__list-item"><span>Client CRM</span></li>
+						<li class="sitemap__list-item"><span>Time Tracking</span></li>
+						<li class="sitemap__list-item"><span>Track Tracking</span></li>
+						<li class="sitemap__list-item"><span>Forms</span></li>
+						<li class="sitemap__list-item"><span>Accounting</span></li>
+						<li class="sitemap__list-item"><span>Bonsai Tax</span></li>
+						<li class="sitemap__list-item"><span>Bonsai Cash</span></li>
+					</ul>
+					<div class="sitemap__list-subitem">
+						<p>Pricing</p>
+						<span>Bonsai Reviews</span>
 					</div>
-					<div class="trial__button">
-						<a>Start free</a>
-					</div>
-				</section>
+				</article>
+				<article>
+					<p class="sitemap__title">Free resources</p>
+					<ul class="sitemap__list">
+						<li class="sitemap__list-item">
+							<span>Freelance resources</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Freelance Blog by Bonsai</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>How to Write a Contract</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Online Signature Maker</span>
+						</li>
+					</ul>
 
-				<section class="faq">
-					<div class="faq__title">
-						<p>Frequently Asked Questions</p>
-					</div>
-					<div class="faq__content">
-						<ul class="faq__content-list">
-							<li class="faq__list-item-separator">
-								<div class="faq__list-item">
-									<p>How does the 14 day free trial work?</p>
-									<span class="faq__list-item-toggle"></span>
-								</div>
-								<div
-									class="faq__list-item-description faq__list-item-description-toggle"
-								>
-									<p>It works!</p>
-								</div>
-							</li>
-							<li class="faq__list-item-separator">
-								<div class="faq__list-item">
-									<p>Can I change plans anytime?</p>
-									<span class="faq__list-item-toggle"></span>
-								</div>
-								<div
-									class="faq__list-item-description faq__list-item-description-toggle"
-								>
-									<p>Yes, you can do it as long as you are a client</p>
-								</div>
-							</li>
-							<li class="faq__list-item-separator">
-								<div class="faq__list-item">
-									<p>How do I pause my Bonsai subscription?</p>
-									<span class="faq__list-item-toggle"></span>
-								</div>
-								<div
-									class="faq__list-item-description faq__list-item-description-toggle"
-								>
-									<p>You just can't, this is a trap!</p>
-								</div>
-							</li>
-							<li class="faq__list-item-separator">
-								<div class="faq__list-item">
-									<p>What is the refund policy?</p>
-									<span class="faq__list-item-toggle"></span>
-								</div>
-								<div
-									class="faq__list-item-description faq__list-item-description-toggle"
-								>
-									<p>
-										We don't have one ... basically, if you pay you are done
-									</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
+					<ul class="sitemap__list">
+						<li class="sitemap__list-item">
+							<span>Self-Employed Taxes Hub</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Self-Employed Tax Calculator</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Self-Employed Tax Deductions</span>
+						</li>
+					</ul>
 
-				<section class="sitemap">
-					<article>
-						<p class="sitemap__title">Product</p>
-						<ul class="sitemap__list">
-							<li class="sitemap__list-item"><span>Proposals</span></li>
-							<li class="sitemap__list-item"><span>Contracts</span></li>
-							<li class="sitemap__list-item"><span>Invoicing</span></li>
-							<li class="sitemap__list-item"><span>Client CRM</span></li>
-							<li class="sitemap__list-item"><span>Time Tracking</span></li>
-							<li class="sitemap__list-item"><span>Track Tracking</span></li>
-							<li class="sitemap__list-item"><span>Forms</span></li>
-							<li class="sitemap__list-item"><span>Accounting</span></li>
-							<li class="sitemap__list-item"><span>Bonsai Tax</span></li>
-							<li class="sitemap__list-item"><span>Bonsai Cash</span></li>
-						</ul>
-						<div class="sitemap__list-subitem">
-							<p>Pricing</p>
-							<span>Bonsai Reviews</span>
-						</div>
-					</article>
-					<article>
-						<p class="sitemap__title">Free resources</p>
-						<ul class="sitemap__list">
-							<li class="sitemap__list-item">
-								<span>Freelance resources</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Freelance Blog by Bonsai</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>How to Write a Contract</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Online Signature Maker</span>
-							</li>
-						</ul>
-
-						<ul class="sitemap__list">
-							<li class="sitemap__list-item">
-								<span>Self-Employed Taxes Hub</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Self-Employed Tax Calculator</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Self-Employed Tax Deductions</span>
-							</li>
-						</ul>
-
-						<div class="sitemap__list-subitem">
-							<h4>Templates</h4>
-							<ul class="sitemap__list">
-								<li class="sitemap__list-item sitemap__list-item-toggle">
-									<span>Invoice Templates</span>
-								</li>
-								<li class="sitemap__list-item sitemap__list-item-toggle">
-									<span>Proposal Templates</span>
-								</li>
-								<li class="sitemap__list-item sitemap__list-item-toggle">
-									<span>Contract Templates</span>
-								</li>
-								<li class="sitemap__list-item sitemap__list-item-toggle">
-									<span>Agreement Templates</span>
-								</li>
-								<li class="sitemap__list-item sitemap__list-item-toggle">
-									<span>Scope of Work Templates</span>
-								</li>
-								<li class="sitemap__list-item sitemap__list-item-toggle">
-									<span>Quote Templates</span>
-								</li>
-								<li class="sitemap__list-item">
-									<span>Credit Note Templates</span>
-								</li>
-								<li class="sitemap__list-item">
-									<span>Estimate Template</span>
-								</li>
-							</ul>
-						</div>
-					</article>
-					<article>
-						<p class="sitemap__title">Bonsai</p>
-						<ul class="sitemap__list">
-							<li class="sitemap__list-item">
-								<span>About</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Careers</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Support</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>LinkedIn</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Twitter</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Privacy policy</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Legal</span>
-							</li>
-						</ul>
-						<ul class="sitemap__list">
-							<li class="sitemap__list-item">
-								<span>Affiliates</span>
-							</li>
-							<li class="sitemap__list-item">
-								<span>Write for US</span>
-							</li>
-						</ul>
-
+					<div class="sitemap__list-subitem">
+						<h4>Templates</h4>
 						<ul class="sitemap__list">
 							<li class="sitemap__list-item sitemap__list-item-toggle">
-								<span>Comparisons</span>
+								<span>Invoice Templates</span>
+							</li>
+							<li class="sitemap__list-item sitemap__list-item-toggle">
+								<span>Proposal Templates</span>
+							</li>
+							<li class="sitemap__list-item sitemap__list-item-toggle">
+								<span>Contract Templates</span>
+							</li>
+							<li class="sitemap__list-item sitemap__list-item-toggle">
+								<span>Agreement Templates</span>
+							</li>
+							<li class="sitemap__list-item sitemap__list-item-toggle">
+								<span>Scope of Work Templates</span>
+							</li>
+							<li class="sitemap__list-item sitemap__list-item-toggle">
+								<span>Quote Templates</span>
+							</li>
+							<li class="sitemap__list-item">
+								<span>Credit Note Templates</span>
+							</li>
+							<li class="sitemap__list-item">
+								<span>Estimate Template</span>
 							</li>
 						</ul>
-					</article>
-				</section>
+					</div>
+				</article>
+				<article>
+					<p class="sitemap__title">Bonsai</p>
+					<ul class="sitemap__list">
+						<li class="sitemap__list-item">
+							<span>About</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Careers</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Support</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>LinkedIn</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Twitter</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Privacy policy</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Legal</span>
+						</li>
+					</ul>
+					<ul class="sitemap__list">
+						<li class="sitemap__list-item">
+							<span>Affiliates</span>
+						</li>
+						<li class="sitemap__list-item">
+							<span>Write for US</span>
+						</li>
+					</ul>
+
+					<ul class="sitemap__list">
+						<li class="sitemap__list-item sitemap__list-item-toggle">
+							<span>Comparisons</span>
+						</li>
+					</ul>
+				</article>
 			</section>
 		</main>
 		<script type="module" src="scripts/app.js"></script>

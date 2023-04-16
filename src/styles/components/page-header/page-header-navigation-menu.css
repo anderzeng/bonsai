@@ -1,14 +1,10 @@
-.page-header__menu {
-	padding: 1rem;
-}
-
-.page-header__menu-items {
+.page-header__navigation-menu {
 	list-style: none;
 	display: flex;
 	gap: 2rem;
 }
 
-.page-header__menu-item {
+.page-header__navigation-menu-item {
 	cursor: pointer;
 }
 
@@ -38,17 +34,18 @@
 	border-radius: 3px;
 }
 
-.page-header__menu-item:hover .page-header__menu-item-dropdown-content {
+.page-header__navigation-menu-item:hover
+	.page-header__menu-item-dropdown-content {
 	display: block;
 }
 
-.page-header__dropdown-item {
+.page-header__menu-item-dropdown {
 	display: block;
 	margin-top: 5px;
 	margin-left: 5px;
 	padding: 10px;
 }
 
-.page-header__dropdown-item:hover {
+.page-header__menu-item-dropdown:hover {
 	background-color: var(--primary-color-green);
 }

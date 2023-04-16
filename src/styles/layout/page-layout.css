@@ -1,15 +1,7 @@
-.page-layout {
-	display: flex;
-	flex-direction: column;
-	width: 1268px;
-	margin: auto;
-	gap: 20px;
-}
-
 .page-content {
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 1.5rem;
 	width: 800px;
 	margin: auto;
 }

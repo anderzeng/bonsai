@@ -1,9 +1,9 @@
-@import url(page-header-menu.css);
+@import url(page-header-navigation-menu.css);
 @import url(page-header-buttons.css);
 
 .page-header {
-	max-width: 1268px;
-	margin: 0 auto;
+	max-width: 1200px;
+	margin: auto;
 }
 
 .page-header__container {
@@ -11,17 +11,5 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-}
-
-.page-header__logo {
 	padding: 1rem;
-}
-
-.page-header__items {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	width: 900px;
-	justify-content: space-between;
-	align-items: center;
 }
