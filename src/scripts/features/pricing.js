@@ -7,7 +7,7 @@ export default function selectionToggle() {
 	);
 
 	this.firstElementChild.classList.toggle(
-		'pricing__header-toggle-switch-activation'
+		'plans-pricing__header-toggle-switch-activation'
 	);
 
 	setTimeout(() => {

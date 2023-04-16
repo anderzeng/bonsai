@@ -1,11 +1,11 @@
-.pricing__header-toggle {
+.plans-pricing__header-toggle {
 	display: flex;
 	gap: 1rem;
 	text-transform: uppercase;
 	align-items: center;
 }
 
-.pricing__header-toggle-switch {
+.plans-pricing__header-toggle-switch {
 	width: 45px;
 	height: 25px;
 	background-color: var(--primary-color-green);
@@ -13,7 +13,7 @@
 	cursor: pointer;
 }
 
-.pricing__header-toggle-switch-indicator {
+.plans-pricing__header-toggle-switch-indicator {
 	background-color: var(--primary-color-white);
 	border-radius: 100%;
 	width: 21px;
@@ -23,6 +23,6 @@
 	transition: transform 0.2s 0.1s ease-out;
 }
 
-.pricing__header-toggle-switch-activation {
+.plans-pricing__header-toggle-switch-activation {
 	transform: translateX(20px);
 }
