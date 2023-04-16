@@ -1,27 +1,27 @@
-.pricing__content {
+.plans-pricing__content {
 	display: flex;
 	justify-content: space-evenly;
-	gap: 4rem;
+	gap: 2rem;
 }
 
-.pricing__content-box {
+.plans-pricing__container {
 	border: solid 2px rgb(192, 192, 192, 0.3);
 	border-radius: 4px;
 	width: 365px;
 	position: relative;
 }
 
-.pricing__content-box-activate {
+.plans-pricing__container-selected {
 	border-color: var(--primary-color-green);
 }
 
-.pricing__content-box-tag {
+.plans-pricing__price-promotion-tag {
 	position: absolute;
 	width: 130px;
 	transform: rotate(45deg);
 }
 
-.pricing__content-box-promotion-tag {
+.plans-pricing__price-promotion-tag-description {
 	left: 214px;
 	top: 41px;
 	border-left: 30px solid transparent;
@@ -29,7 +29,7 @@
 	border-bottom: 30px solid var(--primary-color-green);
 }
 
-.pricing__content-box-promotion-tag-description {
+.plans-pricing__price-promotion-tag-description-description {
 	left: 250px;
 	top: 41px;
 	text-transform: uppercase;
@@ -39,46 +39,46 @@
 	font-size: 13px;
 }
 
-.pricing__content-inner-box {
+.plans-pricing__inner-container {
 	padding: 2rem;
 }
 
-.pricing__content-data {
+.plans-pricing__inner-container-data {
 	margin-top: 2rem;
 }
 
-.pricing__content-value {
+.plans-pricing__inner-container-price {
 	font-size: 2em;
 	font-weight: bold;
 }
 
-.pricing__content-value sup {
+.plans-pricing__inner-container-price sup {
 	font-size: x-large;
 	margin-right: 0.5rem;
 }
 
-.pricing__content-time {
+.plans-pricing__inner-container-time {
 	text-transform: uppercase;
 }
 
-.pricing__content-separator {
+.plans-pricing__inner-container-separator {
 	margin: 1rem 0;
 	border: 1px solid var(--primary-color-green);
 }
 
-.pricing__content-items {
+.plans-pricing__inner-container-items {
 	list-style: none;
 	display: contents;
 	font-size: 14px;
 	font-weight: 400;
 }
 
-.pricing__content-item {
+.plans-pricing__inner-container-item {
 	margin-top: 1rem;
 	margin-left: 4px;
 }
 
-.pricing__content-item::before {
+.plans-pricing__inner-container-item::before {
 	content: '';
 	display: inline-block;
 	height: 8px;
@@ -89,7 +89,7 @@
 	margin-right: 10px;
 }
 
-.pricing__content-item-new-tag {
+.plans-pricing__inner-container-item-new-tag {
 	display: inline-block;
 	background-color: var(--primary-color-yellow);
 	font-weight: 300;
