@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: space-evenly;
 	gap: 4rem;
-	margin-top: 3rem;
 }
 
 .pricing__content-box {

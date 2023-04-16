@@ -1,3 +1,9 @@
 @import url(plans-pricing-header.css);
 @import url(plans-pricing-header-toggler.css);
 @import url(plans-pricing-content.css);
+
+.plans-pricing {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
