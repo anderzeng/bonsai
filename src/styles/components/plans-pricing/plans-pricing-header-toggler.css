@@ -22,9 +22,9 @@
 	height: 1.2em;
 	border-radius: 1em;
 	background-color: var(--primary-color-white);
-	transition: transform 0.2s 0.1s ease-out;
+	transition: transform 0.3s;
 }
 
-.plans-pricing__header-toggler-action {
+.plans-pricing__header-toggler-activation {
 	transform: translateX(20px);
 }

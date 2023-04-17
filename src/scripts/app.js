@@ -1,16 +1,16 @@
 import faqItemToggleElements from './features/faq';
-import selectionToggle from './features/pricing';
+import activateToggler from './features/pricing';
 
 const App = {
 	$: {
-		pricingSelectionToggle: document.querySelector(
-			'[data-id="pricing-selection-toggle"]'
+		pricingSelectionToggler: document.querySelector(
+			'[data-id="plans-pricing-header-toggler"]'
 		),
 		faqItemToggleElements: faqItemToggleElements,
 	},
 
 	init() {
-		App.$.pricingSelectionToggle.addEventListener('click', selectionToggle);
+		App.$.pricingSelectionToggler.addEventListener('click', activateToggler);
 		App.$.faqItemToggleElements();
 	},
 };
