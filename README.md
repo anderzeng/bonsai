@@ -1,4 +1,4 @@
-# Practice Web Layout - Bonsai
+# Web Layout - Bonsai
 
 Project to practice web layout with HTML, CSS and JavaScript. (Level 1)
 
