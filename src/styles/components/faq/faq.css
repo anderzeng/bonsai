@@ -1,43 +1,42 @@
 .faq {
-	width: 80%;
-	margin: 0 auto;
+	width: 85%;
+	margin: auto;
 }
 
-.faq__title {
+.faq__header {
 	text-align: center;
 	color: var(--primary-color-green);
-	font-weight: lighter;
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
-.faq__content-list {
+.faq__content-items {
 	list-style: none;
 	font-size: large;
+	padding: 0;
 }
 
 .faq__list-item {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px;
 	cursor: pointer;
 }
 
-.faq__list-item-toggle {
+.faq__list-item-toggler {
 	width: 5px;
 	height: 5px;
-	padding: 3px;
-	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
+	padding: 5px;
+	border-right: solid 1px gray;
+	border-bottom: solid 1px gray;
 	transform: rotate(45deg);
 }
 
-.faq__list-item-toggle-animation-up {
+.faq__list-item-toggler-animation-up {
 	transform: rotate(225deg);
 	transition: transform 0.2s ease-in 0s;
 }
 
-.faq__list-item-toggle-animation-down {
+.faq__list-item-toggler-animation-down {
 	transform: rotate(45deg);
 	transition: transform 0.2s ease-in 0s;
 }
@@ -50,11 +49,11 @@
 	padding: 5px;
 }
 
-.faq__list-item-description-toggle {
+.faq__list-item-description-toggler {
 	height: 0;
 	overflow: hidden;
 }
 
 .faq__list-item-separator {
-	border-bottom: 1px solid gray;
+	border-bottom: solid 1px gray;
 }
