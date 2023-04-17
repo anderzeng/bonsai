@@ -1,21 +1,11 @@
-import faqItemToggler from './features/faq';
-import activateToggler from './features/pricing';
+import pricingToggler from './features/pricing';
+import View from './view';
 
 const App = {
-	$: {
-		pricingSelectionToggler: document.querySelector(
-			'[data-id="plans-pricing-header-toggler"]'
-		),
-		faqItemToggler: faqItemToggler,
-	},
-
 	init() {
-		App.registerEventListeners();
-	},
-
-	registerEventListeners() {
-		App.$.pricingSelectionToggler.addEventListener('click', activateToggler);
-		App.$.faqItemToggler();
+		const view = new View();
+		view.bindEventPricingSelectionToggler(pricingToggler);
+		view.bindEventFaqItemVisibilityToggler();
 	},
 };
 

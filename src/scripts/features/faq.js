@@ -1,4 +1,4 @@
-export default function faqItemToggler() {
+export default function faqItemVisibilityToggler() {
 	const faqItems = document.querySelectorAll('.faq__item');
 	const faqItemsDescriptions = document.querySelectorAll(
 		'.faq__item-description'

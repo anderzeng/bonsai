@@ -1,4 +1,4 @@
-export default function activateToggler() {
+export default function pricingToggler() {
 	this.firstElementChild.classList.toggle(
 		'plans-pricing__header-toggler-activation'
 	);
