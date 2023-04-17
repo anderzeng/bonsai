@@ -1,0 +1,4 @@
+.plans-pricing__header {
+	display: flex;
+	justify-content: space-between;
+}

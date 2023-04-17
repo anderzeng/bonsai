@@ -1,5 +1,5 @@
-@import url(banner/banner.css);
-@import url(pricing/pricing.css);
+@import url(page-header/page-header.css);
+@import url(plans-pricing/plans-pricing.css);
 @import url(addons/addons.css);
 @import url(trial/trial.css);
 @import url(faq/faq.css);

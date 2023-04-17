@@ -1,17 +1,17 @@
 export default function selectionToggle() {
 	const pricingBoxMonthly = document.querySelector(
-		'[data-id="pricing-box-monthly"]'
+		'[data-id="plans-pricing-monthly"]'
 	);
 	const pricingBoxYearly = document.querySelector(
-		'[data-id="pricing-box-yearly"]'
+		'[data-id="plans-pricing-yearly"]'
 	);
 
 	this.firstElementChild.classList.toggle(
-		'pricing__header-toggle-switch-activation'
+		'plans-pricing__header-toggle-switch-activation'
 	);
 
 	setTimeout(() => {
-		pricingBoxYearly.classList.toggle('pricing__content-box-activate');
-		pricingBoxMonthly.classList.toggle('pricing__content-box-activate');
+		pricingBoxYearly.classList.toggle('plans-pricing__container-activate');
+		pricingBoxMonthly.classList.toggle('plans-pricing__container-activate');
 	}, 150);
 }

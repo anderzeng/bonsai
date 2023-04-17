@@ -1,0 +1,15 @@
+@import url(page-header-navigation-menu.css);
+@import url(page-header-buttons.css);
+
+.page-header {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.page-header__container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}

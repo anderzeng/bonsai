@@ -1,5 +1,6 @@
 .addons {
-	margin-top: 25px;
+	display: grid;
+	gap: 20px;
 }
 
 .addons__header {
@@ -8,12 +9,7 @@
 	font-size: 1.5rem;
 }
 
-.addons__content {
-	display: grid;
-	gap: 20px;
-}
-
-.addons_item {
+.addons__item {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -37,19 +33,18 @@
 
 .addons__item-separator {
 	background-color: var(--separator-color-gray);
-	width: 100%;
 	height: 5px;
 }
 
-.addons__item-subscription-fee {
+.addons__item-subscription {
 	text-align: center;
 }
 
-.addons__item-price {
+.addons__item-subscription-price {
 	font-size: xx-large;
 	font-weight: bold;
 }
 
-.addons__item-time {
+.addons__item-subscription-time {
 	text-transform: uppercase;
 }
