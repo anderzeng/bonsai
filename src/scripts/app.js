@@ -1,4 +1,4 @@
-import faqItemToggleElements from './features/faq';
+import faqItemToggler from './features/faq';
 import activateToggler from './features/pricing';
 
 const App = {
@@ -6,12 +6,16 @@ const App = {
 		pricingSelectionToggler: document.querySelector(
 			'[data-id="plans-pricing-header-toggler"]'
 		),
-		faqItemToggleElements: faqItemToggleElements,
+		faqItemToggler: faqItemToggler,
 	},
 
 	init() {
+		App.registerEventListeners();
+	},
+
+	registerEventListeners() {
 		App.$.pricingSelectionToggler.addEventListener('click', activateToggler);
-		App.$.faqItemToggleElements();
+		App.$.faqItemToggler();
 	},
 };
 

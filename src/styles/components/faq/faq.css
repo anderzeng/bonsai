@@ -9,39 +9,39 @@
 	font-size: 1.5em;
 }
 
-.faq__content-items {
+.faq__items {
 	list-style: none;
 	font-size: large;
 	padding: 0;
 }
 
-.faq__list-item {
+.faq__item {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	cursor: pointer;
 }
 
-.faq__list-item-toggler {
+.faq__item-toggler {
 	width: 5px;
 	height: 5px;
-	padding: 5px;
+	padding: 3px;
 	border-right: solid 1px gray;
 	border-bottom: solid 1px gray;
 	transform: rotate(45deg);
 }
 
-.faq__list-item-toggler-animation-up {
+.faq__item-toggler-animation-up {
 	transform: rotate(225deg);
 	transition: transform 0.2s ease-in 0s;
 }
 
-.faq__list-item-toggler-animation-down {
+.faq__item-toggler-animation-down {
 	transform: rotate(45deg);
 	transition: transform 0.2s ease-in 0s;
 }
 
-.faq__list-item-description {
+.faq__item-description {
 	font-size: large;
 	font-style: italic;
 	color: var(--primary-color-green);
@@ -49,11 +49,11 @@
 	padding: 5px;
 }
 
-.faq__list-item-description-toggler {
+.faq__item-description-toggler {
 	height: 0;
 	overflow: hidden;
 }
 
-.faq__list-item-separator {
+.faq__item-separator {
 	border-bottom: solid 1px gray;
 }
