@@ -9,7 +9,7 @@
 	position: relative;
 	width: 3em;
 	height: 1.6em;
-	background-color: var(--primary-color-green);
+	background-color: var(--color-green-primary);
 	border-radius: 1em;
 	cursor: pointer;
 }
@@ -21,10 +21,10 @@
 	width: 1.2em;
 	height: 1.2em;
 	border-radius: 1em;
-	background-color: var(--primary-color-white);
-	transition: transform 0.2s 0.1s ease-out;
+	background-color: var(--color-white-primary);
+	transition: transform 0.3s;
 }
 
-.plans-pricing__header-toggler-action {
+.plans-pricing__header-toggler-activation {
 	transform: translateX(20px);
 }

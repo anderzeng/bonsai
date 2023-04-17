@@ -32,7 +32,7 @@
 }
 
 .addons__item-separator {
-	background-color: var(--separator-color-gray);
+	background-color: var(--color-gray-separator);
 	height: 5px;
 }
 

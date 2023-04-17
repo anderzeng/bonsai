@@ -1,32 +1,32 @@
-export default function faqItemToggleElements() {
-	const faqItemToggleElements = document.querySelectorAll('.faq__list-item');
-	const faqItemDescriptionElements = document.querySelectorAll(
-		'.faq__list-item-description'
+export default function faqItemVisibilityToggler() {
+	const faqItems = document.querySelectorAll('.faq__item');
+	const faqItemsDescriptions = document.querySelectorAll(
+		'.faq__item-description'
 	);
 
-	faqItemToggleElements.forEach((faqItemToggleElement, index) => {
-		let toggleExpanded = false;
-		faqItemToggleElement.addEventListener('click', () => {
-			toggleExpanded = !toggleExpanded;
-			if (toggleExpanded) {
-				faqItemDescriptionElements[index].classList.toggle(
-					'faq__list-item-description-toggle'
+	faqItems.forEach((faqItem, index) => {
+		let togglerExpanded = false;
+		faqItem.addEventListener('click', () => {
+			togglerExpanded = !togglerExpanded;
+			if (togglerExpanded) {
+				faqItemsDescriptions[index].classList.toggle(
+					'faq__item-description-toggler'
 				);
-				faqItemToggleElement.lastElementChild.classList.add(
-					'faq__list-item-toggle-animation-up'
+				faqItem.lastElementChild.classList.add(
+					'faq__item-toggler-animation-up'
 				);
-				faqItemToggleElement.lastElementChild.classList.remove(
-					'faq__list-item-toggle-animation-down'
+				faqItem.lastElementChild.classList.remove(
+					'faq__item-toggler-animation-down'
 				);
 			} else {
-				faqItemDescriptionElements[index].classList.toggle(
-					'faq__list-item-description-toggle'
+				faqItemsDescriptions[index].classList.toggle(
+					'faq__item-description-toggler'
 				);
-				faqItemToggleElement.lastElementChild.classList.add(
-					'faq__list-item-toggle-animation-down'
+				faqItem.lastElementChild.classList.add(
+					'faq__item-toggler-animation-down'
 				);
-				faqItemToggleElement.lastElementChild.classList.remove(
-					'faq__list-item-toggle-animation-up'
+				faqItem.lastElementChild.classList.remove(
+					'faq__item-toggler-animation-up'
 				);
 			}
 		});

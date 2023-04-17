@@ -19,10 +19,10 @@
 
 .page-header__button-login {
 	border: solid 2px;
-	color: var(--primary-color-green);
+	color: var(--color-green-primary);
 }
 
 .page-header__button-trial {
 	color: white;
-	background-color: var(--primary-color-green);
+	background-color: var(--color-green-primary);
 }
