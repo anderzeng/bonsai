@@ -16,26 +16,24 @@
 }
 
 .plans-pricing__price-promotion-tag {
-	position: absolute;
+	position: relative;
 	width: 130px;
+	top: 8px;
+	left: 180px;
+	border-left: 2em solid transparent;
+	border-right: 2em solid transparent;
+	border-bottom: 2em solid var(--primary-color-green);
 	transform: rotate(45deg);
 }
 
 .plans-pricing__price-promotion-tag-description {
-	left: 214px;
-	top: 41px;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-bottom: 30px solid var(--primary-color-green);
-}
-
-.plans-pricing__price-promotion-tag-description-description {
-	left: 250px;
-	top: 41px;
+	position: absolute;
+	left: 5px;
+	top: -3px;
+	text-align: center;
 	text-transform: uppercase;
 	color: white;
 	letter-spacing: 1px;
-	font-weight: bold;
 	font-size: 13px;
 }
 
