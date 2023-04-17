@@ -61,7 +61,7 @@
 
 .plans-pricing__inner-container-separator {
 	margin: 1em 0;
-	border: 1px solid var(--primary-color-green);
+	border: solid 1px var(--primary-color-green);
 }
 
 .plans-pricing__inner-container-items {

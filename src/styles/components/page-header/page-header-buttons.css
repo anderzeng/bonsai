@@ -12,7 +12,7 @@
 
 .page-header__button-label {
 	text-transform: uppercase;
-	font-size: smaller;
+	font-size: small;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
