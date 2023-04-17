@@ -1,8 +1,8 @@
 {
-	"name": "practice-web-layout-bonsai",
+	"name": "web-layout-bonsai",
 	"author": "Adrian Quesada - Anderzeng <aquesada.dev@gmail.com>",
 	"version": "1.0.0",
-	"description": "Practice web layout project - Bonsai (Level 1)",
+	"description": "Web layout training project - Bonsai (Level 1)",
 	"type": "module",
 	"private": "true",
 	"license": "ISC",
