@@ -5,7 +5,7 @@
 
 .faq__header {
 	text-align: center;
-	color: var(--primary-color-green);
+	color: var(--color-green-primary);
 	font-size: 1.5em;
 }
 
@@ -44,7 +44,7 @@
 .faq__item-description {
 	font-size: large;
 	font-style: italic;
-	color: var(--primary-color-green);
+	color: var(--color-green-primary);
 	margin-left: 10px;
 	padding: 5px;
 }

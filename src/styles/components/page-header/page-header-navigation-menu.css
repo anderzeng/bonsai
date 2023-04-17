@@ -46,5 +46,5 @@
 }
 
 .page-header__menu-item-dropdown:hover {
-	background-color: var(--primary-color-green);
+	background-color: var(--color-green-primary);
 }
