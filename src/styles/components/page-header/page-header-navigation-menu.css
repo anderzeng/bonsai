@@ -2,7 +2,6 @@
 	list-style: none;
 	display: flex;
 	gap: 2rem;
-	margin-left: 4em;
 }
 
 .page-header__navigation-menu-item {
@@ -47,4 +46,10 @@
 
 .page-header__menu-item-dropdown:hover {
 	background-color: var(--color-green-primary);
+}
+
+@media screen and (max-width: 576px) {
+	.page-header__navigation-menu {
+		display: none;
+	}
 }

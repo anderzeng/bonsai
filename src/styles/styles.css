@@ -1,4 +1,4 @@
-@import url(variables/colors.css);
+@import url(variables/variables.css);
 @import url(layout/page-layout.css);
 @import url(components/components.css);
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
