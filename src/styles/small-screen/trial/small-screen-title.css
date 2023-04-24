@@ -1,0 +1,14 @@
+.trial {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.trial__description {
+	font-size: larger;
+	text-align: center;
+}
+
+.trial__button {
+	padding: 0.8em 1.8em;
+}
