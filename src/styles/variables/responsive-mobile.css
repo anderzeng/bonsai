@@ -1,9 +1,0 @@
-:root {
-	--mobile-hamburger-gap: 0.5em;
-	--mobile-hamburger-bar-width: 2em;
-	--mobile-hamburger-bar-height: 5px;
-	--mobile-hamburger-height: calc(
-		var(--mobile-hamburger-bar-height) * 3 + var(--mobile-hamburger-gap) * 2
-	);
-	--mobile-hamburger-animation-timing: 200ms ease-in-out;
-}

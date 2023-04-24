@@ -1,0 +1,6 @@
+:root {
+	--mobile-hamburger-menu-gap: 0.5em;
+	--mobile-hamburger-menu-bar-width: 2em;
+	--mobile-hamburger-menu-bar-height: 5px;
+	--mobile-hamburger-menu-animation-timing: 200ms ease-in-out;
+}

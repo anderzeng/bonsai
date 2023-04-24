@@ -47,9 +47,3 @@
 .page-header__menu-item-dropdown:hover {
 	background-color: var(--color-green-primary);
 }
-
-@media screen and (max-width: 576px) {
-	.page-header__navigation-menu {
-		display: none;
-	}
-}
