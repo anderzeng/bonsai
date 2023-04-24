@@ -1,11 +1,12 @@
-import pricingToggler from './features/pricing';
+import activatePricingToggler from './features/pricing';
 import View from './view';
 
 const App = {
 	init() {
 		const view = new View();
-		view.bindEventPricingSelectionToggler(pricingToggler);
+		view.bindEventPricingSelectionToggler(activatePricingToggler);
 		view.bindEventFaqItemVisibilityToggler();
+		view.modifyPricingTitleSmallScreens();
 	},
 };
 

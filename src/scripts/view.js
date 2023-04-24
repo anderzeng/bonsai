@@ -7,6 +7,9 @@ export default class View {
 		this.$.pricingSelectionToggler = document.querySelector(
 			'[data-id="plans-pricing-header-toggler"]'
 		);
+		this.$.pricingWorkflowPlusTitle = document.querySelector(
+			'[data-id="title-workflow-plus"]'
+		);
 	}
 
 	bindEventPricingSelectionToggler(handler) {
@@ -15,5 +18,11 @@ export default class View {
 
 	bindEventFaqItemVisibilityToggler() {
 		faqItemVisibilityToggler();
+	}
+
+	modifyPricingTitleSmallScreens() {
+		if (window.innerWidth < 597) {
+			this.$.pricingWorkflowPlusTitle.innerText = 'Workflow +';
+		}
 	}
 }

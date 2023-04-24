@@ -1,3 +1,5 @@
 .plans-pricing__header {
-	display: block;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
