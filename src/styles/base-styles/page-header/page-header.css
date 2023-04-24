@@ -1,8 +1,5 @@
 @import url(page-header-navigation-menu.css);
 @import url(page-header-buttons.css);
-@import url(mobile-page-header-navigation-menu.css);
-@import url(mobile-page-header-hamburger-menu.css);
-@import url(mobile-page-header-buttons.css);
 
 .page-header {
 	max-width: 1200px;

@@ -1,0 +1,17 @@
+.mobile-page-header__menu {
+	display: flex;
+	flex-direction: column;
+	gap: var(--mobile-hamburger-menu-gap);
+	cursor: pointer;
+}
+
+.mobile-page-header__menu::after,
+.mobile-page-header__menu::before,
+.mobile-page-header__menu div {
+	content: '';
+	display: inline-block;
+	width: var(--mobile-hamburger-menu-bar-width);
+	height: var(--mobile-hamburger-menu-bar-height);
+	border-radius: 25px;
+	background-color: var(--color-gray-primary);
+}

@@ -1,5 +1,0 @@
-@media screen and (max-width: 576px) {
-	.page-header__buttons-container {
-		flex-direction: row-reverse;
-	}
-}
