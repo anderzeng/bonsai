@@ -34,14 +34,14 @@
 	gap: 1em;
 }
 
-a {
+.footer a {
 	font-size: large;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
 	text-decoration: none;
 	color: var(--color-gray-primary);
 }

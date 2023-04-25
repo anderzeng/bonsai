@@ -1,20 +1,15 @@
-.small-screen-page-header__menu {
+.small-screen-page-header__hamburger-menu {
 	display: flex;
 	flex-direction: column;
-	gap: var(--mobile-hamburger-menu-gap);
+	gap: var(--small-screen-hamburger-menu-gap);
 	cursor: pointer;
+	border: none;
+	background: none;
 }
 
-.small-screen-page-header__menu::after,
-.small-screen-page-header__menu::before,
-.small-screen-page-header__menu button {
-	content: '';
-	width: var(--mobile-hamburger-menu-bar-width);
-	height: var(--mobile-hamburger-menu-bar-height);
+.small-screen-page-header__hamburger-menu div {
+	width: var(--small-screen-hamburger-menu-bar-width);
+	height: var(--small-screen-hamburger-menu-bar-height);
 	border-radius: 25px;
 	background-color: var(--color-gray-primary);
-}
-
-.small-screen-page-header__menu-button {
-	border: 1px solid var(--color-gray-primary);
 }

@@ -5,9 +5,10 @@
 
 .page-header {
 	justify-content: center;
+	flex-direction: column;
 }
 
-.small-screen-page-header__menu-container {
+.small-screen-page-header__menu {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
