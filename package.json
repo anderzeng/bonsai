@@ -1,11 +1,11 @@
 {
-	"name": "web-layout-bonsai",
-	"author": "Adrian Quesada - Anderzeng <aquesada.dev@gmail.com>",
+	"name": "bonsai",
+	"author": "Adrian Quesada Gómez - Anderzeng <aquesada.dev@gmail.com>",
 	"version": "1.0.0",
-	"description": "Web layout training project - Bonsai (Level 1)",
+	"description": "Web page inspired by the Bonsai project from Frontend Practice",
 	"type": "module",
 	"private": "true",
-	"license": "ISC",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
@@ -21,8 +21,8 @@
 		"eslint": "^8.39.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-import": "^2.27.5",
-		"prettier": "2.8.7",
-		"vite": "^4.3.1",
+		"prettier": "2.8.8",
+		"vite": "^4.3.2",
 		"vite-plugin-eslint": "^1.8.1"
 	}
 }
