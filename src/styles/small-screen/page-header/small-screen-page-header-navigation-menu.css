@@ -7,18 +7,9 @@
 	display: none;
 }
 
-.page-header__logo-container {
+.page-header__logo {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 85%;
 	margin: 1rem;
-}
-
-.page-header__logo {
-	margin-top: 0.2rem;
-}
-
-.page-header__logo img {
-	width: 150%;
 }

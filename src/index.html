@@ -20,55 +20,53 @@
 
 	<body>
 		<header class="page-header">
-			<div class="page-header__container">
-				<a class="page-header__logo-container" href="bonsai">
-					<div class="page-header__logo">
-						<img src="assets/images/bonsai-logo.svg" alt="bonsai-logo" />
-					</div>
-					<div class="mobile-page-header__menu">
-						<div></div>
-					</div>
+			<div class="small-screen-page-header__menu-container">
+				<a class="page-header__logo" href="bonsai">
+					<img src="assets/images/bonsai-logo.svg" alt="bonsai-logo" />
 				</a>
-				<nav>
-					<ul class="page-header__navigation-menu">
-						<li class="page-header__navigation-menu-item">
-							<span class="page-header__menu-item-toggle">Product</span>
-							<div class="page-header__menu-item-dropdown-container">
-								<div class="page-header__menu-item-dropdown-content">
-									<a class="page-header__menu-item-dropdown">Product 1</a>
-									<a class="page-header__menu-item-dropdown">Product 2</a>
-									<a class="page-header__menu-item-dropdown">Product 3</a>
-								</div>
-							</div>
-						</li>
-						<li class="page-header__navigation-menu-item">
-							<span class="page-header__menu-item-toggle">Templates</span>
-							<div class="page-header__menu-item-dropdown-container">
-								<div class="page-header__menu-item-dropdown-content">
-									<a class="page-header__menu-item-dropdown">Template 1</a>
-									<a class="page-header__menu-item-dropdown">Template 2</a>
-									<a class="page-header__menu-item-dropdown">Template 3</a>
-								</div>
-							</div>
-						</li>
-						<li class="page-header__navigation-menu-item">
-							<span>Pricing</span>
-						</li>
-						<li class="page-header__navigation-menu-item">
-							<a>Reviews</a>
-						</li>
-					</ul>
-				</nav>
-				<div>
-					<ul class="page-header__buttons-container">
-						<li class="page-header__button page-header__button-login">
-							<a role="button" class="page-header__button-label">Log In</a>
-						</li>
-						<li class="page-header__button page-header__button-trial">
-							<a role="button" class="page-header__button-label">Start free</a>
-						</li>
-					</ul>
+				<div class="small-screen-page-header__menu">
+					<button class="small-screen-page-header__menu-button"></button>
 				</div>
+			</div>
+			<nav>
+				<ul class="page-header__navigation-menu">
+					<li class="page-header__navigation-menu-item">
+						<span class="page-header__menu-item-toggle">Product</span>
+						<div class="page-header__menu-item-dropdown-container">
+							<div class="page-header__menu-item-dropdown-content">
+								<a class="page-header__menu-item-dropdown">Product 1</a>
+								<a class="page-header__menu-item-dropdown">Product 2</a>
+								<a class="page-header__menu-item-dropdown">Product 3</a>
+							</div>
+						</div>
+					</li>
+					<li class="page-header__navigation-menu-item">
+						<span class="page-header__menu-item-toggle">Templates</span>
+						<div class="page-header__menu-item-dropdown-container">
+							<div class="page-header__menu-item-dropdown-content">
+								<a class="page-header__menu-item-dropdown">Template 1</a>
+								<a class="page-header__menu-item-dropdown">Template 2</a>
+								<a class="page-header__menu-item-dropdown">Template 3</a>
+							</div>
+						</div>
+					</li>
+					<li class="page-header__navigation-menu-item">
+						<span>Pricing</span>
+					</li>
+					<li class="page-header__navigation-menu-item">
+						<a>Reviews</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="page-header__buttons-container">
+				<ul>
+					<li class="page-header__button page-header__button-login">
+						<a role="button" class="page-header__button-label">Log In</a>
+					</li>
+					<li class="page-header__button page-header__button-trial">
+						<a role="button" class="page-header__button-label">Start free</a>
+					</li>
+				</ul>
 			</div>
 		</header>
 		<main class="page-content">
@@ -409,7 +407,7 @@
 		</main>
 		<footer class="footer">
 			<span class="footer__description">
-				Inspired by the
+				Reference from
 				<a
 					href="https://www.frontendpractice.com/projects/bonsai"
 					target="_blank">

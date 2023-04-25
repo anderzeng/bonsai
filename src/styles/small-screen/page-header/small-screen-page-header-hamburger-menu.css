@@ -1,17 +1,20 @@
-.mobile-page-header__menu {
+.small-screen-page-header__menu {
 	display: flex;
 	flex-direction: column;
 	gap: var(--mobile-hamburger-menu-gap);
 	cursor: pointer;
 }
 
-.mobile-page-header__menu::after,
-.mobile-page-header__menu::before,
-.mobile-page-header__menu div {
+.small-screen-page-header__menu::after,
+.small-screen-page-header__menu::before,
+.small-screen-page-header__menu button {
 	content: '';
-	display: inline-block;
 	width: var(--mobile-hamburger-menu-bar-width);
 	height: var(--mobile-hamburger-menu-bar-height);
 	border-radius: 25px;
 	background-color: var(--color-gray-primary);
+}
+
+.small-screen-page-header__menu-button {
+	border: 1px solid var(--color-gray-primary);
 }
