@@ -3,8 +3,13 @@
 	background-color: var(--color-green-primary);
 }
 
-.footer > p {
+.footer {
 	text-align: center;
+}
+
+.footer__description {
+	display: inline-block;
+	margin-top: 0.5em;
 }
 
 .footer__real-name {

@@ -7,7 +7,7 @@
 .plans-pricing__container {
 	border: solid 2px rgb(192, 192, 192, 0.3);
 	border-radius: 4px;
-	width: 365px;
+	width: 22.8rem;
 	position: relative;
 }
 
@@ -35,6 +35,10 @@
 	color: white;
 	letter-spacing: 1px;
 	font-size: 13px;
+}
+
+.small-screen-plans-pricing__price-promotion-tag {
+	display: none;
 }
 
 .plans-pricing__inner-container {

@@ -1,7 +1,6 @@
 .sitemap {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2em;
-	justify-items: end;
 }
 
 .sitemap article:nth-child(2) {
