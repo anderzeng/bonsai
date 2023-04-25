@@ -1,6 +1,6 @@
 .page-header__navigation-menu {
-	list-style: none;
 	display: flex;
+	list-style: none;
 	gap: 2rem;
 }
 

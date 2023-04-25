@@ -21,10 +21,13 @@ function toggleOpacity(element) {
 }
 
 function toggleDisplay(element) {
-	if (element.style.display === 'block') {
+	if (element.style.display === 'flex') {
 		element.style.display = 'none';
+		element.style.flexDirection = null;
 	} else {
-		element.style.display = 'block';
+		element.style.display = 'flex';
+		element.style.padding = 0;
+		element.style.flexDirection = 'column';
 	}
 }
 
