@@ -7,6 +7,7 @@ const App = {
 		view.bindEventPricingSelectionToggler(activatePricingToggler);
 		view.bindEventFaqItemVisibilityToggler();
 		view.modifyPricingTitleSmallScreens();
+		view.setCurrentYear();
 	},
 };
 

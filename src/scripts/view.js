@@ -10,6 +10,9 @@ export default class View {
 		this.$.pricingWorkflowPlusTitle = document.querySelector(
 			'[data-id="title-workflow-plus"]'
 		);
+		this.$.footerCurrentYear = document.querySelector(
+			'[data-id="footer-current-year"]'
+		);
 	}
 
 	bindEventPricingSelectionToggler(handler) {
@@ -24,5 +27,10 @@ export default class View {
 		if (window.innerWidth < 597) {
 			this.$.pricingWorkflowPlusTitle.innerText = 'Workflow +';
 		}
+	}
+
+	setCurrentYear() {
+		const currentYear = new Date().getFullYear();
+		this.$.footerCurrentYear.innerText = currentYear;
 	}
 }
