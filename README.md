@@ -15,8 +15,7 @@ Web page based on the Bonsai project from [Frontend Practice](https://www.fronte
 npm install && npm run dev
 ```
 
-The project is using Vite. The terminal output will show the ip and port
-of the development server.
+The project is using Vite. The terminal output will show the IP and PORT of the development server.
 
 ## Licensing
 
