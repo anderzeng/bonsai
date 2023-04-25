@@ -8,6 +8,8 @@ export default function hamburgerMenuToggler() {
 		'[data-id="page-header-navigation-menu"]'
 	);
 	toggleDisplay(pageHeaderNavigationMenu);
+
+	applyAnimationToHamburgerMenuButton(hamburgerMenuButton);
 }
 
 function toggleOpacity(element) {
@@ -24,4 +26,16 @@ function toggleDisplay(element) {
 	} else {
 		element.style.display = 'block';
 	}
+}
+
+function applyAnimationToHamburgerMenuButton(hamburgerMenuButton) {
+	const hamburgerMenuTopBar = hamburgerMenuButton.children[0];
+	const hamburgerMenuBottomBar = hamburgerMenuButton.children[2];
+	hamburgerMenuTopBar.classList.toggle(
+		'small-screen-page-header__hamburger-menu-top-bar-rotate'
+	);
+
+	hamburgerMenuBottomBar.classList.toggle(
+		'small-screen-page-header__hamburger-menu-bottom-bar-rotate'
+	);
 }
