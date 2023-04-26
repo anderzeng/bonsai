@@ -1,3 +1,10 @@
+:root {
+	--small-screen-hamburger-menu-gap: 0.4em;
+	--small-screen-hamburger-menu-bar-width: 2em;
+	--small-screen-hamburger-menu-bar-height: 5px;
+	--small-screen-hamburger-menu-animation-timing: 200ms ease-in-out;
+}
+
 .small-screen-page-header__hamburger-menu {
 	display: flex;
 	flex-direction: column;

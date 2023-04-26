@@ -1,7 +1,6 @@
 @import url(small-screen-page-header-buttons.css);
 @import url(small-screen-page-header-hamburger-menu.css);
 @import url(small-screen-page-header-navigation-menu.css);
-@import url(variables-page-header-hamburger-menu.css);
 
 .page-header {
 	justify-content: center;
