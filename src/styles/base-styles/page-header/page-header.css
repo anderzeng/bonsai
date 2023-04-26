@@ -14,3 +14,7 @@
 .small-screen-page-header__hamburger-menu {
 	display: none;
 }
+
+.small-screen-page-header__navigation-menu {
+	display: none;
+}

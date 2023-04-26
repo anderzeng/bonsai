@@ -5,7 +5,7 @@ export default function hamburgerMenuToggler() {
 	toggleOpacity(hamburgerMenuButton.children[1]);
 
 	const pageHeaderNavigationMenu = document.querySelector(
-		'[data-id="page-header-navigation-menu"]'
+		'[data-id="small-screen-page-header-navigation-menu"]'
 	);
 	toggleDisplay(pageHeaderNavigationMenu);
 
@@ -21,13 +21,10 @@ function toggleOpacity(element) {
 }
 
 function toggleDisplay(element) {
-	if (element.style.display === 'flex') {
+	if (element.style.display === 'block') {
 		element.style.display = 'none';
-		element.style.flexDirection = null;
 	} else {
-		element.style.display = 'flex';
-		element.style.padding = 0;
-		element.style.flexDirection = 'column';
+		element.style.display = 'block';
 	}
 }
 
