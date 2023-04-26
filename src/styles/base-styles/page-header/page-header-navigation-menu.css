@@ -8,6 +8,10 @@
 	cursor: pointer;
 }
 
+.page-header__menu-item-toggle {
+	padding: 0.5em;
+}
+
 .page-header__menu-item-toggle::after {
 	content: '';
 	display: inline-block;
@@ -21,6 +25,7 @@
 
 .page-header__menu-item-dropdown-container {
 	position: relative;
+	margin-top: 0.5em;
 }
 
 .page-header__menu-item-dropdown-content {
