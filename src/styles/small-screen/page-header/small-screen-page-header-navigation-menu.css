@@ -43,11 +43,10 @@
 }
 
 .small-screen-page-header__navigation-menu-item-title {
-	background-color: var(--color-gray-background);
+	background-color: var(--color-green-primary);
 	padding: 0.7em;
 	border-radius: 10px;
 	margin-bottom: 0.5em;
-	color: white;
 	display: flex;
 	align-items: center;
 }
@@ -69,6 +68,11 @@
 	margin-top: 1em;
 	border-radius: 10px;
 	border: 2px solid var(--color-green-primary);
+	cursor: pointer;
+}
+
+.small-screen-page-header__navigation-menu-item-toggle {
+	cursor: pointer;
 }
 
 .small-screen-page-header__navigation-menu-item-toggle::before {
@@ -77,8 +81,8 @@
 	width: 4px;
 	height: 4px;
 	padding: 1.5px;
-	border-right: solid 2px var(--color-yellow-primary);
-	border-bottom: solid 2px var(--color-yellow-primary);
+	border-right: solid 2px black;
+	border-bottom: solid 2px black;
 	transform: rotate(-45deg);
 	margin-right: 0.5em;
 }

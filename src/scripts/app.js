@@ -7,7 +7,7 @@ const App = {
 		const view = new View();
 		view.bindEventPricingSelectionToggler(activatePricingToggler);
 		view.bindEventFaqItemVisibilityToggler();
-		if (window.innerWidth < 597) {
+		if (window.innerWidth <= 768) {
 			view.applyInteractionOnSmallScreen();
 			view.bindEventHamburgerMenuButton(activateHamburgerMenu);
 			view.bindEventNavigationMenuSmallScreen();
