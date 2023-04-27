@@ -1,0 +1,13 @@
+.plans-pricing__header-toggler {
+	width: 4em;
+	height: 2em;
+}
+
+.plans-pricing__header-toggler-switch {
+	top: 6px;
+	left: 5px;
+}
+
+.plans-pricing__header-toggler-activation {
+	transform: translateX(35px);
+}

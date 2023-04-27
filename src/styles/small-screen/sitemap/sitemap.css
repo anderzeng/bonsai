@@ -1,0 +1,12 @@
+.sitemap {
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2em;
+}
+
+.sitemap article:nth-child(2) {
+	display: none;
+}
+
+.sitemap__item-toggler::after {
+	display: none;
+}

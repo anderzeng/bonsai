@@ -1,14 +1,15 @@
-export default function pricingToggler() {
+export default function activatePricingToggler() {
 	this.firstElementChild.classList.toggle(
 		'plans-pricing__header-toggler-activation'
 	);
 
-	const pricingBoxMonthly = document.querySelector(
+	const pricingMonthlyContainer = document.querySelector(
 		'[data-id="plans-pricing-monthly"]'
 	);
-	const pricingBoxYearly = document.querySelector(
+	const pricingYearlyContainer = document.querySelector(
 		'[data-id="plans-pricing-yearly"]'
 	);
-	pricingBoxYearly.classList.toggle('plans-pricing__container-selected');
-	pricingBoxMonthly.classList.toggle('plans-pricing__container-selected');
+
+	pricingMonthlyContainer.classList.toggle('plans-pricing__container-selected');
+	pricingYearlyContainer.classList.toggle('plans-pricing__container-selected');
 }

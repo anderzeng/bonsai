@@ -7,55 +7,116 @@
 		<title>Bonsai</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" href="styles/normalize.css" />
-		<link rel="stylesheet" href="styles/styles.css" />
+		<link rel="stylesheet" href="styles/base-styles/base-styles.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (min-width: 992px)"
+			href="styles/large-screen/large-screen-styles.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 768px)"
+			href="styles/medium-screen/medium-screen-styles.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 576px)"
+			href="styles/small-screen/small-screen-styles.css" />
 	</head>
 
 	<body>
 		<header class="page-header">
-			<div class="page-header__container">
-				<a href="/src/bonsai/">
+			<div class="small-screen-page-header__menu">
+				<a class="page-header__logo" href="bonsai">
 					<img src="assets/images/bonsai-logo.svg" alt="bonsai-logo" />
 				</a>
-				<nav>
-					<ul class="page-header__navigation-menu">
-						<li class="page-header__navigation-menu-item">
-							<span class="page-header__menu-item-toggle">Product</span>
-							<div class="page-header__menu-item-dropdown-container">
-								<div class="page-header__menu-item-dropdown-content">
-									<a class="page-header__menu-item-dropdown">Product 1</a>
-									<a class="page-header__menu-item-dropdown">Product 2</a>
-									<a class="page-header__menu-item-dropdown">Product 3</a>
-								</div>
+				<button
+					data-id="small-screen-page-header-hamburger-menu-button"
+					class="small-screen-page-header__hamburger-menu">
+					<div></div>
+					<div></div>
+					<div></div>
+				</button>
+			</div>
+			<div
+				data-id="small-screen-page-header-navigation-menu"
+				class="small-screen-page-header__navigation-menu">
+				<ul>
+					<li>
+						<p
+							class="small-screen-page-header__navigation-menu-item-title small-screen-page-header__navigation-menu-item-toggle">
+							Product
+						</p>
+						<ul
+							class="small-screen-page-header__navigation-submenu small-screen-page-header__navigation-submenu-visibility">
+							<li>Product 1</li>
+							<li>Product 2</li>
+							<li>Product 3</li>
+						</ul>
+					</li>
+					<li>
+						<p
+							class="small-screen-page-header__navigation-menu-item-title small-screen-page-header__navigation-menu-item-toggle">
+							Templates
+						</p>
+						<ul
+							class="small-screen-page-header__navigation-submenu small-screen-page-header__navigation-submenu-visibility">
+							<li>Template 1</li>
+							<li>Template 2</li>
+							<li>Template 3</li>
+						</ul>
+					</li>
+					<li>
+						<p class="small-screen-page-header__navigation-menu-item-title">
+							Pricing
+						</p>
+					</li>
+					<li>
+						<p class="small-screen-page-header__navigation-menu-item-title">
+							Reviews
+						</p>
+					</li>
+				</ul>
+			</div>
+			<nav>
+				<ul
+					data-id="page-header-navigation-menu"
+					class="page-header__navigation-menu">
+					<li class="page-header__navigation-menu-item">
+						<span class="page-header__menu-item-toggle">Product</span>
+						<div class="page-header__menu-item-dropdown-container">
+							<div class="page-header__menu-item-dropdown-content">
+								<a class="page-header__menu-item-dropdown">Product 1</a>
+								<a class="page-header__menu-item-dropdown">Product 2</a>
+								<a class="page-header__menu-item-dropdown">Product 3</a>
 							</div>
-						</li>
-						<li class="page-header__navigation-menu-item">
-							<span class="page-header__menu-item-toggle">Templates</span>
-							<div class="page-header__menu-item-dropdown-container">
-								<div class="page-header__menu-item-dropdown-content">
-									<a class="page-header__menu-item-dropdown">Template 1</a>
-									<a class="page-header__menu-item-dropdown">Template 2</a>
-									<a class="page-header__menu-item-dropdown">Template 3</a>
-								</div>
+						</div>
+					</li>
+					<li class="page-header__navigation-menu-item">
+						<span class="page-header__menu-item-toggle">Templates</span>
+						<div class="page-header__menu-item-dropdown-container">
+							<div class="page-header__menu-item-dropdown-content">
+								<a class="page-header__menu-item-dropdown">Template 1</a>
+								<a class="page-header__menu-item-dropdown">Template 2</a>
+								<a class="page-header__menu-item-dropdown">Template 3</a>
 							</div>
-						</li>
-						<li class="page-header__navigation-menu-item">
-							<span>Pricing</span>
-						</li>
-						<li class="page-header__navigation-menu-item">
-							<a>Reviews</a>
-						</li>
-					</ul>
-				</nav>
-				<div>
-					<ul class="page-header__buttons-container">
-						<li class="page-header__button page-header__button-login">
-							<a role="button" class="page-header__button-label">Log In</a>
-						</li>
-						<li class="page-header__button page-header__button-trial">
-							<a role="button" class="page-header__button-label">Start free</a>
-						</li>
-					</ul>
-				</div>
+						</div>
+					</li>
+					<li class="page-header__navigation-menu-item">
+						<span>Pricing</span>
+					</li>
+					<li class="page-header__navigation-menu-item">
+						<a>Reviews</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="page-header__buttons-container">
+				<ul>
+					<li class="page-header__button page-header__button-login">
+						<a role="button" class="page-header__button-label">Log In</a>
+					</li>
+					<li class="page-header__button page-header__button-trial">
+						<a role="button" class="page-header__button-label">Start free</a>
+					</li>
+				</ul>
 			</div>
 		</header>
 		<main class="page-content">
@@ -117,12 +178,15 @@
 					</div>
 					<div data-id="plans-pricing-yearly" class="plans-pricing__container">
 						<div class="plans-pricing__inner-container">
-							<h3>Workflow Plus</h3>
+							<h3 data-id="title-workflow-plus">Workflow Plus</h3>
 							<div class="plans-pricing__inner-container-data">
 								<div class="plans-pricing__price-promotion-tag">
 									<div class="plans-pricing__price-promotion-tag-description">
 										<p>Most Popular</p>
 									</div>
+								</div>
+								<div class="small-screen-plans-pricing__price-promotion-tag">
+									<span>Most Popular</span>
 								</div>
 								<span class="plans-pricing__inner-container-price">
 									<sup>&#36;</sup>29
@@ -215,7 +279,7 @@
 				<div class="trial__description">
 					<p>
 						It's
-						<span class="trial__description-green-word">your</span>
+						<span class="trial__color-green">your</span>
 						business.<br />
 						We're here to help it grow.
 					</p>
@@ -237,7 +301,7 @@
 								<span class="faq__item-toggler"></span>
 							</div>
 							<div class="faq__item-description faq__item-description-toggler">
-								<p>It works!</p>
+								<p>It just works!</p>
 							</div>
 						</li>
 						<li class="faq__item-separator">
@@ -246,7 +310,7 @@
 								<span class="faq__item-toggler"></span>
 							</div>
 							<div class="faq__item-description faq__item-description-toggler">
-								<p>Yes, you can do it as long as you are a client</p>
+								<p>Yes, you can do it as long as you pay</p>
 							</div>
 						</li>
 						<li class="faq__item-separator">
@@ -270,7 +334,6 @@
 					</ul>
 				</div>
 			</section>
-
 			<section class="sitemap">
 				<article>
 					<h4 class="sitemap__header">Product</h4>
@@ -285,10 +348,6 @@
 						<li class="sitemap__item"><span>Accounting</span></li>
 						<li class="sitemap__item"><span>Bonsai Tax</span></li>
 						<li class="sitemap__item"><span>Bonsai Cash</span></li>
-					</ul>
-					<p class="sitemap__items-green-subtitle">Pricing</p>
-					<ul class="sitemap__items">
-						<li class="sitemap__item"><span>Bonsai Reviews</span></li>
 					</ul>
 				</article>
 				<article>
@@ -383,15 +442,35 @@
 							<span>Write for US</span>
 						</li>
 					</ul>
-
-					<ul class="sitemap__items">
-						<li class="sitemap__item sitemap__item-toggler">
-							<span>Comparisons</span>
-						</li>
-					</ul>
 				</article>
 			</section>
 		</main>
+		<footer class="footer">
+			<div class="footer__authorship">
+				<p>
+					Developed by <strong>Anderzeng </strong> -
+					<span class="footer__real-name">Adrian Quesada</span>
+					<span data-id="footer-current-year"></span>
+				</p>
+				<a
+					class="footer__github-link"
+					href="https://github.com/anderzeng/web-layout-bonsai"
+					target="_blank">
+					<img
+						class="footer__github-logo"
+						alt="github-logo"
+						src="assets/images/github-logo.svg" />
+				</a>
+			</div>
+			<p class="footer__description">
+				Reference from
+				<a
+					href="https://www.frontendpractice.com/projects/bonsai"
+					target="_blank">
+					<strong>Bonsai Project</strong>
+				</a>
+			</p>
+		</footer>
 		<script type="module" src="scripts/app.js"></script>
 	</body>
 </html>

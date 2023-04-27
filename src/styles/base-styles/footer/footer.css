@@ -1,0 +1,47 @@
+.footer {
+	padding: 0.5em;
+	background-color: var(--color-green-primary);
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer__description {
+	display: inline-block;
+	margin-top: 0.5em;
+}
+
+.footer__real-name {
+	display: none;
+}
+
+.footer__github-link {
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.footer__github-logo {
+	width: 100%;
+	height: 100%;
+}
+
+.footer__authorship {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+
+.footer a {
+	font-size: large;
+}
+
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+	text-decoration: none;
+	color: var(--color-gray-primary);
+}

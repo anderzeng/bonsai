@@ -1,12 +1,15 @@
 .page-header__navigation-menu {
-	list-style: none;
 	display: flex;
+	list-style: none;
 	gap: 2rem;
-	margin-left: 4em;
 }
 
 .page-header__navigation-menu-item {
 	cursor: pointer;
+}
+
+.page-header__menu-item-toggle {
+	padding: 0.5em;
 }
 
 .page-header__menu-item-toggle::after {
@@ -22,6 +25,7 @@
 
 .page-header__menu-item-dropdown-container {
 	position: relative;
+	margin-top: 0.5em;
 }
 
 .page-header__menu-item-dropdown-content {

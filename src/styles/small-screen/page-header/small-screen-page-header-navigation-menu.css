@@ -1,0 +1,98 @@
+.page-header__container {
+	flex-direction: column;
+	gap: 1em;
+}
+
+.page-header__navigation-menu {
+	display: none;
+}
+
+.page-header__menu-item-toggle::after {
+	display: none;
+}
+
+.page-header__navigation-menu-item:hover
+	.page-header__menu-item-dropdown-content {
+	display: none;
+}
+
+.page-header__navigation-menu-item {
+	text-align: center;
+	border-radius: 5px;
+	background-color: var(--color-gray-separator);
+	padding: 5px;
+	font-weight: bold;
+}
+
+.page-header__logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1rem;
+}
+
+.small-screen-page-header__navigation-menu {
+	width: 50%;
+}
+
+.small-screen-page-header__navigation-menu > ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.small-screen-page-header__navigation-menu-item-title {
+	background-color: var(--color-green-primary);
+	padding: 0.7em;
+	border-radius: 10px;
+	margin-bottom: 0.5em;
+	display: flex;
+	align-items: center;
+}
+
+.small-screen-page-header__navigation-submenu {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.small-screen-page-header__navigation-submenu-visibility {
+	max-height: 0;
+	overflow: hidden;
+}
+
+.small-screen-page-header__navigation-submenu li {
+	background-color: var(--color-gray-separator);
+	padding: 10px;
+	margin-top: 1em;
+	border-radius: 10px;
+	border: 2px solid var(--color-green-primary);
+	cursor: pointer;
+}
+
+.small-screen-page-header__navigation-menu-item-toggle {
+	cursor: pointer;
+}
+
+.small-screen-page-header__navigation-menu-item-toggle::before {
+	content: '';
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	padding: 1.5px;
+	border-right: solid 2px black;
+	border-bottom: solid 2px black;
+	transform: rotate(-45deg);
+	margin-right: 0.5em;
+}
+
+.small-screen-page-header__navigation-menu-animation-open::before {
+	transform: rotate(45deg);
+	transition: transform 0.2s ease-in 0s;
+}
+
+.small-screen-page-header__navigation-menu-animation-closed::before {
+	transform: rotate(-45deg);
+	transition: transform 0.2s ease-in 0s;
+}
