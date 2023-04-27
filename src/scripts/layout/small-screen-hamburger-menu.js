@@ -1,4 +1,4 @@
-export default function hamburgerMenuToggler() {
+export default function activateHamburgerMenu() {
 	const hamburgerMenuButton = document.querySelector(
 		'[data-id="small-screen-page-header-hamburger-menu-button"]'
 	);

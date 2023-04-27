@@ -1,4 +1,5 @@
 import faqItemVisibilityToggler from './features/faq.js';
+import openNavigationSubmenu from './layout/small-screen-navigation-menu.js';
 
 export default class View {
 	$ = {};
@@ -24,6 +25,10 @@ export default class View {
 
 	bindEventFaqItemVisibilityToggler() {
 		faqItemVisibilityToggler();
+	}
+
+	bindEventNavigationMenuSmallScreen() {
+		openNavigationSubmenu();
 	}
 
 	applyInteractionOnSmallScreen() {

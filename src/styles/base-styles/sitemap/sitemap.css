@@ -18,11 +18,6 @@
 	padding: 0.4em 0;
 }
 
-.sitemap__items-green-subtitle {
-	margin-top: 2em;
-	color: var(--color-green-primary);
-}
-
 .sitemap__item-toggler {
 	cursor: pointer;
 	margin-top: 0.5em;

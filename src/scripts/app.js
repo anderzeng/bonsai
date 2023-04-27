@@ -1,5 +1,5 @@
 import activatePricingToggler from './features/pricing';
-import hamburgerMenuToggler from './layout/hamburger-menu';
+import activateHamburgerMenu from './layout/small-screen-hamburger-menu';
 import View from './view';
 
 const App = {
@@ -9,7 +9,8 @@ const App = {
 		view.bindEventFaqItemVisibilityToggler();
 		if (window.innerWidth < 597) {
 			view.applyInteractionOnSmallScreen();
-			view.bindEventHamburgerMenuButton(hamburgerMenuToggler);
+			view.bindEventHamburgerMenuButton(activateHamburgerMenu);
+			view.bindEventNavigationMenuSmallScreen();
 		}
 		view.setCurrentYear();
 	},
