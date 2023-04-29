@@ -1,7 +1,8 @@
-@import url(small-screen-page-layout.css);
-@import url(page-header/small-screen-page-header.css);
-@import url(plans-pricing/small-screen-plans-pricing.css);
-@import url(addons/addons.css);
-@import url(trial/small-screen-trial.css);
-@import url(faq/faq.css);
-@import url(sitemap/sitemap.css);
+@import 'small-screen-page-layout.css' screen and (max-width: 576px);
+@import 'page-header/small-screen-page-header.css' screen and (max-width: 576px);
+@import 'plans-pricing/small-screen-plans-pricing.css' screen and
+	(max-width: 576px);
+@import 'addons/addons.css' screen and (max-width: 576px);
+@import 'trial/small-screen-trial.css' screen and (max-width: 576px);
+@import 'faq/faq.css' screen and (max-width: 576px);
+@import 'sitemap/sitemap.css' screen and (max-width: 576px);

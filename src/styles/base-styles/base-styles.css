@@ -1,11 +1,11 @@
-@import url(addons/addons.css);
-@import url(faq/faq.css);
-@import url(page-header/page-header.css);
-@import url(plans-pricing/plans-pricing.css);
-@import url(sitemap/sitemap.css);
-@import url(trial/trial.css);
-@import url(footer/footer.css);
-@import url(../variables/variables.css);
+@import 'addons/addons.css';
+@import 'faq/faq.css';
+@import 'page-header/page-header.css';
+@import 'plans-pricing/plans-pricing.css';
+@import 'sitemap/sitemap.css';
+@import 'trial/trial.css';
+@import 'footer/footer.css';
+@import '../variables/variables.css';
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
