@@ -49,6 +49,14 @@
 	border-radius: 5px;
 }
 
+.page-header__menu-item-dropdown:link,
+.page-header__menu-item-dropdown:visited,
+.page-header__menu-item-dropdown:hover,
+.page-header__menu-item-dropdown:active {
+	text-decoration: none;
+	color: black;
+}
+
 .page-header__menu-item-dropdown:hover {
 	background-color: var(--color-green-primary);
 }

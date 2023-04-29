@@ -4,6 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Web page inspired by the Bonsai project from Frontend Practice by Anderzeng" />
 		<title>Bonsai</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" href="styles/normalize.css" />
@@ -19,9 +22,14 @@
 		<header class="page-header">
 			<div class="small-screen-page-header__menu">
 				<a class="page-header__logo" href="bonsai">
-					<img src="assets/images/bonsai-logo.svg" alt="bonsai-logo" />
+					<img
+						src="assets/images/bonsai-logo.svg"
+						alt="bonsai-logo"
+						height="21"
+						width="100" />
 				</a>
 				<button
+					aria-label="hamburger-menu"
 					data-id="small-screen-page-header-hamburger-menu-button"
 					class="small-screen-page-header__hamburger-menu">
 					<div></div>
@@ -77,9 +85,15 @@
 						<span class="page-header__menu-item-toggle">Product</span>
 						<div class="page-header__menu-item-dropdown-container">
 							<div class="page-header__menu-item-dropdown-content">
-								<a class="page-header__menu-item-dropdown">Product 1</a>
-								<a class="page-header__menu-item-dropdown">Product 2</a>
-								<a class="page-header__menu-item-dropdown">Product 3</a>
+								<a href="bonsai" class="page-header__menu-item-dropdown"
+									>Product 1</a
+								>
+								<a href="/bonsai" class="page-header__menu-item-dropdown"
+									>Product 2</a
+								>
+								<a href="/bonsai" class="page-header__menu-item-dropdown"
+									>Product 3</a
+								>
 							</div>
 						</div>
 					</li>
@@ -87,9 +101,15 @@
 						<span class="page-header__menu-item-toggle">Templates</span>
 						<div class="page-header__menu-item-dropdown-container">
 							<div class="page-header__menu-item-dropdown-content">
-								<a class="page-header__menu-item-dropdown">Template 1</a>
-								<a class="page-header__menu-item-dropdown">Template 2</a>
-								<a class="page-header__menu-item-dropdown">Template 3</a>
+								<a href="/bonsai" class="page-header__menu-item-dropdown"
+									>Template 1</a
+								>
+								<a href="/bonsai" class="page-header__menu-item-dropdown"
+									>Template 2</a
+								>
+								<a href="/bonsai" class="page-header__menu-item-dropdown"
+									>Template 3</a
+								>
 							</div>
 						</div>
 					</li>
@@ -97,7 +117,7 @@
 						<span>Pricing</span>
 					</li>
 					<li class="page-header__navigation-menu-item">
-						<a>Reviews</a>
+						<span>Reviews</span>
 					</li>
 				</ul>
 			</nav>
@@ -119,13 +139,13 @@
 						<h2>Plans &amp; Pricing</h2>
 					</div>
 					<div class="plans-pricing__header-toggler-container">
-						<h4>Monthly</h4>
+						<h3>Monthly</h3>
 						<div
 							data-id="plans-pricing-header-toggler"
 							class="plans-pricing__header-toggler">
 							<div class="plans-pricing__header-toggler-switch"></div>
 						</div>
-						<h4>Yearly</h4>
+						<h3>Yearly</h3>
 					</div>
 				</header>
 				<div class="plans-pricing__content">
@@ -329,7 +349,7 @@
 			</section>
 			<section class="sitemap">
 				<article>
-					<h4 class="sitemap__header">Product</h4>
+					<p class="sitemap__title">Product</p>
 					<ul class="sitemap__items">
 						<li class="sitemap__item"><span>Proposals</span></li>
 						<li class="sitemap__item"><span>Contracts</span></li>
@@ -344,7 +364,7 @@
 					</ul>
 				</article>
 				<article>
-					<h4 class="sitemap__header">Free resources</h4>
+					<p class="sitemap__title">Free resources</p>
 					<ul class="sitemap__items">
 						<li class="sitemap__item">
 							<span>Freelance resources</span>
@@ -373,7 +393,7 @@
 					</ul>
 
 					<div class="sitemap__items-subitem">
-						<h4>Templates</h4>
+						<p class="sitemap__title">Templates</p>
 						<ul class="sitemap__items">
 							<li class="sitemap__item sitemap__item-toggler">
 								<span>Invoice Templates</span>
@@ -403,7 +423,7 @@
 					</div>
 				</article>
 				<article>
-					<h4 class="sitemap__header">Bonsai</h4>
+					<p class="sitemap__title">Bonsai</p>
 					<ul class="sitemap__items">
 						<li class="sitemap__item">
 							<span>About</span>
