@@ -5,6 +5,6 @@ export default defineConfig({
 	plugins: [eslint()],
 	root: 'src',
 	build: {
-		outDir: './dist',
+		outDir: 'dist',
 	},
 });
