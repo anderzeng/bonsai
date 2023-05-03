@@ -9,8 +9,7 @@
 }
 
 .footer__description {
-	display: inline-block;
-	margin-top: 0.5em;
+	margin-top: 0;
 }
 
 .footer__real-name {
@@ -32,11 +31,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 1em;
-}
-
-.footer a {
-	font-size: large;
+	gap: 0.5em;
 }
 
 .footer a:link,
@@ -44,5 +39,5 @@
 .footer a:hover,
 .footer a:active {
 	text-decoration: none;
-	color: var(--color-gray-primary);
+	color: antiquewhite;
 }
