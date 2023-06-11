@@ -1,3 +1,7 @@
 .page-content {
-	width: 40rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	width: 40em;
+	margin: 2rem auto;
 }

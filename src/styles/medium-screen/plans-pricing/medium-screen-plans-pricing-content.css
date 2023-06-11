@@ -1,0 +1,10 @@
+.plans-pricing__price-promotion-tag {
+	position: absolute;
+	width: 130px;
+	top: 40px;
+	left: 146px;
+	border-left: solid 2em transparent;
+	border-right: solid 2em transparent;
+	border-bottom: solid 2em var(--color-green-primary);
+	transform: rotate(45deg);
+}

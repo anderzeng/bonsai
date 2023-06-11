@@ -1,8 +1,7 @@
-@import 'small-screen-page-layout.css' screen and (max-width: 576px);
-@import 'page-header/small-screen-page-header.css' screen and (max-width: 576px);
-@import 'plans-pricing/small-screen-plans-pricing.css' screen and
-	(max-width: 576px);
-@import 'addons/addons.css' screen and (max-width: 576px);
-@import 'trial/small-screen-trial.css' screen and (max-width: 576px);
-@import 'faq/faq.css' screen and (max-width: 576px);
-@import 'sitemap/sitemap.css' screen and (max-width: 576px);
+@import 'small-screen-page-layout.css' (max-width: 640px);
+@import 'page-header/small-screen-page-header.css' (max-width: 640px);
+@import 'plans-pricing/small-screen-plans-pricing.css' (max-width: 640px);
+@import 'addons/addons.css' (max-width: 640px);
+@import 'trial/small-screen-trial.css' (max-width: 640px);
+@import 'faq/faq.css' (max-width: 640px);
+@import 'sitemap/sitemap.css' (max-width: 640px);

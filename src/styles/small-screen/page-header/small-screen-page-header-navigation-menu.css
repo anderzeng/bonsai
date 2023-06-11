@@ -24,13 +24,6 @@
 	font-weight: bold;
 }
 
-.page-header__logo {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin: 1rem;
-}
-
 .small-screen-page-header__navigation-menu {
 	width: 50%;
 }

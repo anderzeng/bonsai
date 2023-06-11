@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta
 			name="description"
-			content="Web page inspired by the Bonsai project from Frontend Practice by Anderzeng" />
+			content="Web page inspired by the Bonsai project from Frontend Practice by Adrian Quesada" />
 		<title>Bonsai</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" href="styles/normalize.css" />
@@ -20,13 +20,13 @@
 
 	<body>
 		<header class="page-header">
-			<div class="small-screen-page-header__menu">
-				<a class="page-header__logo" href="bonsai">
+			<div class="page-header__menu small-screen-page-header__menu">
+				<a href="bonsai">
 					<img
-						src="assets/images/bonsai-logo.svg"
-						alt="bonsai-logo"
-						height="21"
-						width="100" />
+						src="assets/images/logo-bonsai-100x21.svg"
+						alt="Bonsai logo"
+						width="100"
+						height="21" />
 				</a>
 				<button
 					aria-label="hamburger-menu"
@@ -85,15 +85,15 @@
 						<span class="page-header__menu-item-toggle">Product</span>
 						<div class="page-header__menu-item-dropdown-container">
 							<div class="page-header__menu-item-dropdown-content">
-								<a href="bonsai" class="page-header__menu-item-dropdown"
-									>Product 1</a
-								>
-								<a href="/bonsai" class="page-header__menu-item-dropdown"
-									>Product 2</a
-								>
-								<a href="/bonsai" class="page-header__menu-item-dropdown"
-									>Product 3</a
-								>
+								<a href="bonsai" class="page-header__menu-item-dropdown">
+									Product 1
+								</a>
+								<a href="/bonsai" class="page-header__menu-item-dropdown">
+									Product 2
+								</a>
+								<a href="/bonsai" class="page-header__menu-item-dropdown">
+									Product 3
+								</a>
 							</div>
 						</div>
 					</li>
@@ -101,15 +101,15 @@
 						<span class="page-header__menu-item-toggle">Templates</span>
 						<div class="page-header__menu-item-dropdown-container">
 							<div class="page-header__menu-item-dropdown-content">
-								<a href="/bonsai" class="page-header__menu-item-dropdown"
-									>Template 1</a
-								>
-								<a href="/bonsai" class="page-header__menu-item-dropdown"
-									>Template 2</a
-								>
-								<a href="/bonsai" class="page-header__menu-item-dropdown"
-									>Template 3</a
-								>
+								<a href="/bonsai" class="page-header__menu-item-dropdown">
+									Template 1
+								</a>
+								<a href="/bonsai" class="page-header__menu-item-dropdown">
+									Template 2
+								</a>
+								<a href="/bonsai" class="page-header__menu-item-dropdown">
+									Template 3
+								</a>
 							</div>
 						</div>
 					</li>
@@ -459,30 +459,31 @@
 			</section>
 		</main>
 		<footer class="footer">
-			<div class="footer__authorship">
-				<p>
-					© <span data-id="footer-current-year"></span> - Developed by
-					<strong>Anderzeng</strong>
-					<span class="footer__real-name">Adrian Quesada</span>
-				</p>
+			<div class="footer-container">
+				<a href="/">
+					<img
+						alt="anderzeng logo"
+						src="assets/images/anderzeng-logo-40x40.svg"
+						loading="lazy"
+						height="40"
+						width="40" />
+				</a>
+				<span>
+					Developed by <strong>Adrian Quesada</strong> &copy;
+					<span data-id="footer-current-year"></span>
+					<span class="footer__brand-name">Anderzeng</span>
+				</span>
 				<a
-					class="footer__github-link"
 					href="https://github.com/anderzeng/web-layout-bonsai"
 					target="_blank">
 					<img
-						class="footer__github-logo"
-						alt="github-logo"
-						src="assets/images/github-logo.svg" />
+						alt="Github logo"
+						width="30"
+						height="30"
+						loading="lazy"
+						src="assets/images/logo-github-30x30.svg" />
 				</a>
 			</div>
-			<p class="footer__description">
-				Reference from project
-				<a
-					href="https://www.frontendpractice.com/projects/bonsai"
-					target="_blank">
-					<span>Bonsai</span>
-				</a>
-			</p>
 		</footer>
 		<script type="module" src="scripts/app.js"></script>
 	</body>
