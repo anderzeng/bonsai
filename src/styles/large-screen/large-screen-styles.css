@@ -1,1 +1,1 @@
-@import 'large-screen-page-layout.css' screen and (min-width: 992px);
+@import './large-screen-page-layout.css' (min-width: 1024px);

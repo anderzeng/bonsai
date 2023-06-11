@@ -7,8 +7,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
 	padding: 1rem;
+}
+
+.page-header__menu {
+	display: flex;
+	flex-grow: 1;
+	flex-basis: 0;
 }
 
 .small-screen-page-header__hamburger-menu {

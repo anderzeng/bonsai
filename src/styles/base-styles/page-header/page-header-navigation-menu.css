@@ -2,6 +2,8 @@
 	display: flex;
 	list-style: none;
 	gap: 2rem;
+	padding: 0;
+	margin: 0;
 }
 
 .page-header__navigation-menu-item {
@@ -24,7 +26,7 @@
 }
 
 .page-header__menu-item-dropdown-container {
-	position: relative;
+	position: absolute;
 	margin-top: 0.5em;
 }
 

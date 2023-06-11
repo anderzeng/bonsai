@@ -1,37 +1,20 @@
 .footer {
-	padding: 0.5em;
 	background-color: var(--color-green-primary);
 }
 
-.footer {
-	text-align: center;
-	margin-top: 2em;
-}
-
-.footer__description {
-	margin-top: 0;
-}
-
-.footer__real-name {
-	display: none;
-}
-
-.footer__github-link {
-	display: block;
-	width: 1.5em;
-	height: 1.5em;
-}
-
-.footer__github-logo {
-	width: 100%;
-	height: 100%;
-}
-
-.footer__authorship {
+.footer-container {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
-	gap: 0.5em;
+	padding: 1em;
+	width: fit-content;
+	margin: auto;
+	text-align: center;
+	gap: 1em;
+}
+
+.footer__brand-name {
+	display: none;
 }
 
 .footer a:link,
@@ -39,5 +22,5 @@
 .footer a:hover,
 .footer a:active {
 	text-decoration: none;
-	color: antiquewhite;
+	color: white;
 }
