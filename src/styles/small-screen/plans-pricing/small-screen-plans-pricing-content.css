@@ -1,18 +1,18 @@
 .plans-pricing__content {
-	flex-wrap: wrap;
-	gap: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .plans-pricing__price-promotion-tag {
-	display: none;
+  display: none;
 }
 
 .small-screen-plans-pricing__price-promotion-tag {
-	position: absolute;
-	display: block;
-	top: 0;
-	right: -1px;
-	border-radius: 4px;
-	padding: 0.2em;
-	background-color: var(--color-green-primary);
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -1px;
+  border-radius: 4px;
+  padding: 0.2em;
+  background-color: var(--color-green-primary);
 }

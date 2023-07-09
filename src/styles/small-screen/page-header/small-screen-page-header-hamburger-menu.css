@@ -1,33 +1,35 @@
 :root {
-	--small-screen-hamburger-menu-gap: 0.4em;
-	--small-screen-hamburger-menu-bar-width: 2em;
-	--small-screen-hamburger-menu-bar-height: 5px;
-	--small-screen-hamburger-menu-animation-timing: 200ms ease-in-out;
+  --small-screen-hamburger-menu-gap: 0.4em;
+  --small-screen-hamburger-menu-bar-width: 2em;
+  --small-screen-hamburger-menu-bar-height: 5px;
+  --small-screen-hamburger-menu-animation-timing: 200ms ease-in-out;
 }
 
 .small-screen-page-header__hamburger-menu {
-	display: flex;
-	flex-direction: column;
-	gap: var(--small-screen-hamburger-menu-gap);
-	cursor: pointer;
-	border: none;
-	background: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--small-screen-hamburger-menu-gap);
+  cursor: pointer;
+  border: none;
+  background: none;
 }
 
 .small-screen-page-header__hamburger-menu div {
-	width: var(--small-screen-hamburger-menu-bar-width);
-	height: var(--small-screen-hamburger-menu-bar-height);
-	border-radius: 25px;
-	background-color: var(--color-gray-primary);
-	transition: opacity 0.1s ease-in-out, transform 0.2s ease-in-out;
+  width: var(--small-screen-hamburger-menu-bar-width);
+  height: var(--small-screen-hamburger-menu-bar-height);
+  border-radius: 25px;
+  background-color: var(--color-gray-primary);
+  transition:
+    opacity 0.1s ease-in-out,
+    transform 0.2s ease-in-out;
 }
 
 .small-screen-page-header__hamburger-menu-top-bar-rotate {
-	transform: rotate(-45deg);
-	transform-origin: right;
+  transform: rotate(-45deg);
+  transform-origin: right;
 }
 
 .small-screen-page-header__hamburger-menu-bottom-bar-rotate {
-	transform: rotate(45deg);
-	transform-origin: right;
+  transform: rotate(45deg);
+  transform-origin: right;
 }

@@ -1,6 +1,6 @@
 @import './medium-screen-page-layout.css' (min-width: 641px) and
-	(max-width: 1024px);
+  (max-width: 1024px);
 @import './plans-pricing/medium-screen-plans-pricing.css' (min-width: 641px) and
-	(max-width: 1024px);
+  (max-width: 1024px);
 @import './page-header/medium-screen-page-header.css' (min-width: 641px) and
-	(max-width: 1024px);
+  (max-width: 1024px);

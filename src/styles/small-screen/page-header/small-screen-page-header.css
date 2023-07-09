@@ -3,13 +3,13 @@
 @import url(small-screen-page-header-navigation-menu.css);
 
 .page-header {
-	justify-content: center;
-	flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .small-screen-page-header__menu {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
 }

@@ -1,50 +1,50 @@
 .addons {
-	display: grid;
-	gap: 20px;
+  display: grid;
+  gap: 20px;
 }
 
 .addons__header {
-	text-align: center;
-	letter-spacing: 1px;
-	font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
 }
 
 .addons__item {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .addons__item-description {
-	display: flex;
-	flex-direction: column;
-	gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .addons__item-description-title {
-	font-size: large;
-	font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 }
 
 .addons__item-description-content {
-	font-size: small;
-	color: gray;
+  font-size: small;
+  color: gray;
 }
 
 .addons__item-separator {
-	background-color: var(--color-gray-separator);
-	height: 5px;
+  background-color: var(--color-gray-separator);
+  height: 5px;
 }
 
 .addons__item-subscription {
-	text-align: center;
+  text-align: center;
 }
 
 .addons__item-subscription-price {
-	font-size: xx-large;
-	font-weight: bold;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .addons__item-subscription-time {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }

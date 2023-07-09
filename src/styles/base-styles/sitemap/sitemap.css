@@ -1,42 +1,42 @@
 .sitemap {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 
 .sitemap__title {
-	text-transform: uppercase;
-	font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .sitemap__items {
-	list-style: none;
-	padding: 0;
-	margin-top: 1.5em;
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5em;
 }
 
 .sitemap__item {
-	padding: 0.4em 0;
+  padding: 0.4em 0;
 }
 
 .sitemap__item-toggler {
-	cursor: pointer;
-	margin-top: 0.5em;
+  cursor: pointer;
+  margin-top: 0.5em;
 }
 
 .sitemap__item-toggler::after {
-	content: '';
-	display: inline-block;
-	padding: 1px;
-	width: 5px;
-	height: 5px;
-	margin-left: 8px;
-	margin-bottom: 3px;
-	border-right: solid 1px black;
-	border-bottom: solid 1px black;
-	transform: rotate(45deg);
+  content: '';
+  display: inline-block;
+  padding: 1px;
+  width: 5px;
+  height: 5px;
+  margin-left: 8px;
+  margin-bottom: 3px;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  transform: rotate(45deg);
 }
 
 .sitemap__items-subitem {
-	margin-top: 2em;
+  margin-top: 2em;
 }

@@ -1,36 +1,36 @@
 .page-header__buttons-container {
-	display: flex;
-	flex-grow: 1;
-	flex-basis: 0;
-	justify-content: flex-end;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  justify-content: flex-end;
 }
 
 .page-header__buttons-container ul {
-	list-style: none;
-	display: flex;
-	gap: 1rem;
-	padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
 }
 
 .page-header__button {
-	padding: 0.5em 1em;
-	border-radius: 5px;
-	cursor: pointer;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .page-header__button-label {
-	text-transform: uppercase;
-	font-size: small;
-	font-weight: bold;
-	letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .page-header__button-login {
-	border: solid 2px;
-	color: var(--color-green-primary);
+  border: solid 2px;
+  color: var(--color-green-primary);
 }
 
 .page-header__button-trial {
-	color: white;
-	background-color: var(--color-green-primary);
+  color: white;
+  background-color: var(--color-green-primary);
 }

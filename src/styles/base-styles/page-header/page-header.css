@@ -2,24 +2,24 @@
 @import url(page-header-buttons.css);
 
 .page-header {
-	max-width: 1200px;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
 }
 
 .page-header__menu {
-	display: flex;
-	flex-grow: 1;
-	flex-basis: 0;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .small-screen-page-header__hamburger-menu {
-	display: none;
+  display: none;
 }
 
 .small-screen-page-header__navigation-menu {
-	display: none;
+  display: none;
 }
