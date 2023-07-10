@@ -14,7 +14,7 @@
   background: none;
 }
 
-.small-screen-page-header__hamburger-menu div {
+.small-screen-page-header__hamburger-menu span {
   width: var(--small-screen-hamburger-menu-bar-width);
   height: var(--small-screen-hamburger-menu-bar-height);
   border-radius: 25px;
