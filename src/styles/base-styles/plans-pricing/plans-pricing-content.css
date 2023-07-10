@@ -1,101 +1,101 @@
 .plans-pricing__content {
-	display: flex;
-	justify-content: space-evenly;
-	gap: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
 }
 
 .plans-pricing__container {
-	border: solid 2px rgb(192, 192, 192, 0.3);
-	border-radius: 4px;
-	width: 22.8rem;
-	position: relative;
+  border: solid 2px rgb(192, 192, 192, 0.3);
+  border-radius: 4px;
+  width: 22.8rem;
+  position: relative;
 }
 
 .plans-pricing__container-selected {
-	border-color: var(--color-green-primary);
+  border-color: var(--color-green-primary);
 }
 
 .plans-pricing__price-promotion-tag {
-	position: absolute;
-	width: 130px;
-	top: 40px;
-	left: 211px;
-	border-left: solid 2em transparent;
-	border-right: solid 2em transparent;
-	border-bottom: solid 2em var(--color-green-primary);
-	transform: rotate(45deg);
+  position: absolute;
+  width: 130px;
+  top: 40px;
+  left: 211px;
+  border-left: solid 2em transparent;
+  border-right: solid 2em transparent;
+  border-bottom: solid 2em var(--color-green-primary);
+  transform: rotate(45deg);
 }
 
 .plans-pricing__price-promotion-tag-description {
-	position: absolute;
-	left: 5px;
-	top: -3px;
-	text-align: center;
-	text-transform: uppercase;
-	color: white;
-	letter-spacing: 1px;
-	font-size: 13px;
+  position: absolute;
+  left: 5px;
+  top: -3px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 13px;
 }
 
 .small-screen-plans-pricing__price-promotion-tag {
-	display: none;
+  display: none;
 }
 
 .plans-pricing__inner-container {
-	padding: 2rem;
+  padding: 2rem;
 }
 
 .plans-pricing__inner-container-data {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .plans-pricing__inner-container-price {
-	font-size: 2em;
-	font-weight: bold;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .plans-pricing__inner-container-price sup {
-	font-size: x-large;
-	margin-right: 0.5rem;
+  font-size: x-large;
+  margin-right: 0.5rem;
 }
 
 .plans-pricing__inner-container-time {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .plans-pricing__inner-container-separator {
-	margin: 1em 0;
-	border: solid 1px var(--color-green-primary);
+  margin: 1em 0;
+  border: solid 1px var(--color-green-primary);
 }
 
 .plans-pricing__inner-container-items {
-	list-style: none;
-	padding: 0;
-	font-size: 14px;
-	font-weight: 400;
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .plans-pricing__inner-container-item {
-	margin-top: 1em;
-	margin-left: 4px;
+  margin-top: 1em;
+  margin-left: 4px;
 }
 
 .plans-pricing__inner-container-item::before {
-	content: '';
-	display: inline-block;
-	height: 8px;
-	padding: 2px;
-	margin-right: 10px;
-	border-right: solid 1px var(--color-green-primary);
-	border-bottom: solid 2px var(--color-green-primary);
-	transform: rotate(45deg);
+  content: '';
+  display: inline-block;
+  height: 8px;
+  padding: 2px;
+  margin-right: 10px;
+  border-right: solid 1px var(--color-green-primary);
+  border-bottom: solid 2px var(--color-green-primary);
+  transform: rotate(45deg);
 }
 
 .plans-pricing__inner-container-item-new-tag {
-	display: inline-block;
-	background-color: var(--color-yellow-primary);
-	font-size: small;
-	color: var(--color-white-primary);
-	padding: 3px;
-	margin-left: 3px;
+  display: inline-block;
+  background-color: var(--color-yellow-primary);
+  font-size: small;
+  color: var(--color-white-primary);
+  padding: 3px;
+  margin-left: 3px;
 }

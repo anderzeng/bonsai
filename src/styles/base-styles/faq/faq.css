@@ -1,59 +1,59 @@
 .faq {
-	width: 85%;
-	margin: auto;
+  width: 85%;
+  margin: auto;
 }
 
 .faq__header {
-	text-align: center;
-	color: var(--color-green-primary);
-	font-size: 1.5em;
+  text-align: center;
+  color: var(--color-green-primary);
+  font-size: 1.5em;
 }
 
 .faq__items {
-	list-style: none;
-	font-size: large;
-	padding: 0;
+  list-style: none;
+  font-size: large;
+  padding: 0;
 }
 
 .faq__item {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
 
 .faq__item-toggler {
-	width: 5px;
-	height: 5px;
-	padding: 3px;
-	border-right: solid 1px gray;
-	border-bottom: solid 1px gray;
-	transform: rotate(45deg);
+  width: 5px;
+  height: 5px;
+  padding: 3px;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+  transform: rotate(45deg);
 }
 
 .faq__item-toggler-animation-up {
-	transform: rotate(225deg);
-	transition: transform 0.2s ease-in 0s;
+  transform: rotate(225deg);
+  transition: transform 0.2s ease-in 0s;
 }
 
 .faq__item-toggler-animation-down {
-	transform: rotate(45deg);
-	transition: transform 0.2s ease-in 0s;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease-in 0s;
 }
 
 .faq__item-description {
-	font-size: large;
-	font-style: italic;
-	color: var(--color-green-primary);
-	margin-left: 10px;
-	padding: 5px;
+  font-size: large;
+  font-style: italic;
+  color: var(--color-green-primary);
+  margin-left: 10px;
+  padding: 5px;
 }
 
 .faq__item-description-toggler {
-	height: 0;
-	overflow: hidden;
+  height: 0;
+  overflow: hidden;
 }
 
 .faq__item-separator {
-	border-bottom: solid 1px gray;
+  border-bottom: solid 1px gray;
 }

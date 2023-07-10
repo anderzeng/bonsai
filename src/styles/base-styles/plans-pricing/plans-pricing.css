@@ -3,7 +3,7 @@
 @import url(plans-pricing-content.css);
 
 .plans-pricing {
-	display: flex;
-	flex-direction: column;
-	gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }

@@ -1,9 +1,9 @@
 :root {
-	--color-yellow-primary: #f8db62;
-	--color-green-primary: #00b289;
-	--color-white-primary: #ffff;
-	--color-green-background: rgb(175, 225, 175, 0.2);
-	--color-gray-primary: #4c4d5f;
-	--color-gray-separator: rgb(128, 139, 150, 0.2);
-	--color-gray-background: rgba(7, 7, 7, 0.473);
+  --color-yellow-primary: #f8db62;
+  --color-green-primary: #00b289;
+  --color-white-primary: #ffff;
+  --color-green-background: rgb(175, 225, 175, 0.2);
+  --color-gray-primary: #4c4d5f;
+  --color-gray-separator: rgb(128, 139, 150, 0.2);
+  --color-gray-background: rgba(7, 7, 7, 0.473);
 }

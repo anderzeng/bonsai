@@ -1,26 +1,26 @@
 .footer {
-	background-color: var(--color-green-primary);
+  background-color: var(--color-green-primary);
 }
 
 .footer-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 1em;
-	width: fit-content;
-	margin: auto;
-	text-align: center;
-	gap: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  gap: 1em;
 }
 
 .footer__brand-name {
-	display: none;
+  display: none;
 }
 
 .footer a:link,
 .footer a:visited,
 .footer a:hover,
 .footer a:active {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }

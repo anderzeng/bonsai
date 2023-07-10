@@ -1,64 +1,64 @@
 .page-header__navigation-menu {
-	display: flex;
-	list-style: none;
-	gap: 2rem;
-	padding: 0;
-	margin: 0;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 .page-header__navigation-menu-item {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .page-header__menu-item-toggle {
-	padding: 0.5em;
+  padding: 0.5em;
 }
 
 .page-header__menu-item-toggle::after {
-	content: '';
-	display: inline-block;
-	border-right: solid 1px black;
-	border-bottom: solid 1px black;
-	padding: 3px;
-	margin-left: 1em;
-	margin-bottom: 3px;
-	transform: rotate(45deg);
+  content: '';
+  display: inline-block;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  padding: 3px;
+  margin-left: 1em;
+  margin-bottom: 3px;
+  transform: rotate(45deg);
 }
 
 .page-header__menu-item-dropdown-container {
-	position: absolute;
-	margin-top: 0.5em;
+  position: absolute;
+  margin-top: 0.5em;
 }
 
 .page-header__menu-item-dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 7em;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	border-radius: 5px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 7em;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .page-header__navigation-menu-item:hover
-	.page-header__menu-item-dropdown-content {
-	display: block;
+  .page-header__menu-item-dropdown-content {
+  display: block;
 }
 
 .page-header__menu-item-dropdown {
-	display: block;
-	margin: 10px;
-	padding: 5px;
-	border-radius: 5px;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .page-header__menu-item-dropdown:link,
 .page-header__menu-item-dropdown:visited,
 .page-header__menu-item-dropdown:hover,
 .page-header__menu-item-dropdown:active {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .page-header__menu-item-dropdown:hover {
-	background-color: var(--color-green-primary);
+  background-color: var(--color-green-primary);
 }
