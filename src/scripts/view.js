@@ -11,8 +11,8 @@ export default class View {
     this.$.pricingWorkflowPlusTitle = document.querySelector(
       '[data-id="title-workflow-plus"]'
     );
-    this.$.footerCurrentYear = document.querySelector(
-      '[data-id="footer-current-year"]'
+    this.$.footerBuiltYear = document.querySelector(
+      '[data-id="footer-built-year"]'
     );
     this.$.hamburgerMenuButton = document.querySelector(
       '[data-id="small-screen-page-header-hamburger-menu-button"]'
@@ -39,9 +39,8 @@ export default class View {
     this.$.pricingWorkflowPlusTitle.innerText = 'Workflow +';
   }
 
-  setCurrentYear() {
-    const currentYear = new Date().getFullYear();
-    this.$.footerCurrentYear.innerText = currentYear;
+  setBuiltYear() {
+    this.$.footerBuiltYear.innerText = '2023';
   }
 
   bindEventHamburgerMenuButton(handler) {
