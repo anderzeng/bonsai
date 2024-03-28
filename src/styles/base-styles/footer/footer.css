@@ -10,17 +10,9 @@
   width: fit-content;
   margin: auto;
   text-align: center;
-  gap: 1em;
+  gap: 6px;
 }
 
-.footer__brand-name {
-  display: none;
-}
-
-.footer a:link,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-  text-decoration: none;
-  color: white;
+.footer-logo {
+  margin-top: 4px;
 }
