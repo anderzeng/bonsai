@@ -23,6 +23,7 @@
     "eslint-plugin-import": "^2.29.1",
     "prettier": "3.2.5",
     "vite": "^5.2.10",
-    "vite-plugin-eslint": "^1.8.1"
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-static-copy": "^1.0.3"
   }
 }
