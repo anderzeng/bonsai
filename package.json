@@ -1,6 +1,6 @@
 {
   "name": "bonsai",
-  "author": "Adrian Quesada - AnderZeng <aquesada.dev@gmail.com>",
+  "author": "AnderZeng <aquesada.dev@gmail.com>",
   "version": "1.5",
   "description": "Web page inspired by the Bonsai project from Frontend Practice",
   "type": "module",
