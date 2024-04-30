@@ -11,9 +11,6 @@ export default class View {
     this.$.pricingWorkflowPlusTitle = document.querySelector(
       '[data-id="title-workflow-plus"]'
     );
-    this.$.footerBuiltYear = document.querySelector(
-      '[data-id="footer-built-year"]'
-    );
     this.$.hamburgerMenuButton = document.querySelector(
       '[data-id="small-screen-page-header-hamburger-menu-button"]'
     );
@@ -37,10 +34,6 @@ export default class View {
 
   modifyPricingTitleSmallScreen() {
     this.$.pricingWorkflowPlusTitle.innerText = 'Workflow +';
-  }
-
-  setBuiltYear() {
-    this.$.footerBuiltYear.innerText = '2023';
   }
 
   bindEventHamburgerMenuButton(handler) {
