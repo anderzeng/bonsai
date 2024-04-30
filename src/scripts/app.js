@@ -12,7 +12,6 @@ const App = {
       view.bindEventHamburgerMenuButton(activateHamburgerMenu);
       view.bindEventNavigationMenuSmallScreen();
     }
-    view.setBuiltYear();
   },
 };
 
