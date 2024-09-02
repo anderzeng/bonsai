@@ -1,5 +1,3 @@
-@import url(medium-screen-page-header-buttons.css);
-
 .page-header {
   flex-direction: column;
   gap: 2em;
