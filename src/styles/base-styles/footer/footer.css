@@ -17,9 +17,22 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
+  gap: 7px;
 }
 
 .footer-logo {
-  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-left: 3px;
+  & > span {
+    margin-left: -3px;
+  }
+}
+
+.anderzeng-logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
