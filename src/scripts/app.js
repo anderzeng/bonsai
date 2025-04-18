@@ -7,11 +7,9 @@ const App = {
     const view = new View();
     view.bindEventPricingSelectionToggler(activatePricingToggler);
     view.bindEventFaqItemVisibilityToggler();
-    if (window.innerWidth <= 640) {
-      view.applyInteractionOnSmallScreen();
-      view.bindEventHamburgerMenuButton(activateHamburgerMenu);
-      view.bindEventNavigationMenuSmallScreen();
-    }
+    view.bindEventHamburgerMenuButton(activateHamburgerMenu);
+    view.bindEventNavigationMenuSmallScreen();
+    view.trackSmallScreenChanges();
   },
 };
 

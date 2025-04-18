@@ -8,9 +8,6 @@ export default class View {
     this.$.pricingSelectionToggler = document.querySelector(
       '[data-id="plans-pricing-header-toggler"]'
     );
-    this.$.pricingWorkflowPlusTitle = document.querySelector(
-      '[data-id="title-workflow-plus"]'
-    );
     this.$.hamburgerMenuButton = document.querySelector(
       '[data-id="small-screen-page-header-hamburger-menu-button"]'
     );
@@ -28,15 +25,22 @@ export default class View {
     openNavigationSubmenu();
   }
 
-  applyInteractionOnSmallScreen() {
-    this.modifyPricingTitleSmallScreen();
-  }
-
-  modifyPricingTitleSmallScreen() {
-    this.$.pricingWorkflowPlusTitle.innerText = 'Workflow +';
-  }
-
   bindEventHamburgerMenuButton(handler) {
     this.$.hamburgerMenuButton.addEventListener('click', handler);
+  }
+
+  trackSmallScreenChanges() {
+    const smallScreenMediaQuery = window.matchMedia('(min-width: 640px)');
+    const pageHeaderNavigationMenu = document.querySelector(
+      '[data-id="small-screen-page-header-navigation-menu"]'
+    );
+    const handleChange = (mediaQueryEvent) => {
+      if (mediaQueryEvent.matches) {
+        pageHeaderNavigationMenu.style.display = 'none';
+      } else {
+        pageHeaderNavigationMenu.style.display = 'block';
+      }
+    };
+    smallScreenMediaQuery.addEventListener('change', handleChange);
   }
 }

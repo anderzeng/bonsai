@@ -10,7 +10,7 @@
 .small-screen-plans-pricing__price-promotion-tag {
   position: absolute;
   display: block;
-  top: 0;
+  top: -1px;
   right: -1px;
   border-radius: 4px;
   padding: 0.2em;
