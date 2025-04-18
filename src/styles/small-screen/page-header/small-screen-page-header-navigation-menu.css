@@ -36,6 +36,7 @@
 }
 
 .small-screen-page-header__navigation-menu-item-title {
+  color: white;
   background-color: var(--color-green-primary);
   padding: 0.7em;
   border-radius: 10px;
@@ -73,9 +74,9 @@
   display: inline-block;
   width: 4px;
   height: 4px;
-  padding: 1.5px;
-  border-right: solid 2px black;
-  border-bottom: solid 2px black;
+  padding: 1px;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
   transform: rotate(-45deg);
   margin-right: 0.5em;
 }
