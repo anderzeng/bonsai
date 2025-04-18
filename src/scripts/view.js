@@ -31,16 +31,21 @@ export default class View {
 
   trackSmallScreenChanges() {
     const smallScreenMediaQuery = window.matchMedia('(min-width: 640px)');
+    const hamburgerMenuButton = document.querySelector(
+      '[data-id="small-screen-page-header-hamburger-menu-button"]'
+    );
+    const handleSmallScreenChange = (mediaQueryEvent) => {
+      if (mediaQueryEvent.matches) {
+        if (this.isHamburgerMenuOpen()) hamburgerMenuButton.click();
+      }
+    };
+    smallScreenMediaQuery.addEventListener('change', handleSmallScreenChange);
+  }
+
+  isHamburgerMenuOpen() {
     const pageHeaderNavigationMenu = document.querySelector(
       '[data-id="small-screen-page-header-navigation-menu"]'
     );
-    const handleChange = (mediaQueryEvent) => {
-      if (mediaQueryEvent.matches) {
-        pageHeaderNavigationMenu.style.display = 'none';
-      } else {
-        pageHeaderNavigationMenu.style.display = 'block';
-      }
-    };
-    smallScreenMediaQuery.addEventListener('change', handleChange);
+    return pageHeaderNavigationMenu.style.display === 'block';
   }
 }
