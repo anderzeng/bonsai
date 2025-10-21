@@ -23,7 +23,7 @@
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-import": "^2.31.0",
     "prettier": "3.5.3",
-    "vite": "^6.3.2",
+    "vite": "^6.4.1",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-static-copy": "^2.3.1"
   }
